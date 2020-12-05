@@ -1,1 +1,1 @@
-# Personal blog: Jesus-Javier Chi-Dominguez
+# Jesus-Javier Chi-Dominguez
