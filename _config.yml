@@ -1,3 +1,5 @@
 theme: jekyll-theme-minimal
 title: Hello there!
-image: ./male-genric-image.jpg
+image:
+        feature: feature-image-thisisme.jpg
+        thumb: thumbnail-image.jpg
