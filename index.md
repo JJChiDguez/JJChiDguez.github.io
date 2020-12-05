@@ -1,3 +1,1 @@
-layout: page
-title: Jesus-Javier Chi-Dominguez
-permalink: ./
+Personal blog
