@@ -4,6 +4,6 @@ I am a Postdoctoral researcher at Tampere University, Finland. I'm currently wor
 
 I have also interest on the cryptanalysis and secure C-code implementations of elliptic-curve and isogeny based cryptographic protocols.
 
-I got a bachelor degree on marhematics in 2013 at [https://www.matematicas.uady.mx/](Faculty of Mathematics of the Autonomous University of Yucatan) but I moved to computer sciences for the master and Ph.D. degrees, both of them were coursed at the [https://www.cs.cinvestav.mx/en](Cinvestav - IPN).
+I got a bachelor degree on marhematics in 2013 at [Faculty of Mathematics of the Autonomous University of Yucatan](https://www.matematicas.uady.mx/) but I moved to computer sciences for the master and Ph.D. degrees, both of them were coursed at the [Cinvestav - IPN](https://www.cs.cinvestav.mx/en).
 
 
