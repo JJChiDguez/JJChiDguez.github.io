@@ -1,6 +1,5 @@
 ---
 title: This is my personal blog!
-layout: template
 filename: index.md
 --- 
 
