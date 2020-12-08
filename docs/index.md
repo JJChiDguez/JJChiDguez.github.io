@@ -16,3 +16,6 @@ You can check the papers where I have collaborated by checking my [google schola
 I am used to playing guitar and watching Anime (Japanese cartoons) in my free time; additionally, I am starting to playing the violin.
 
 _Gracias_ for taking your time in reading my short Bio!
+
+Maybe you want to take a look on some of my
+- [slides](slides.md)
