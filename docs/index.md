@@ -1,3 +1,9 @@
+---
+title: This is my personal blog!
+layout: template
+filename: index.md
+--- 
+
 # This is my personal blog!
 ## Jesus-Javier Chi-Dominguez
 I am a Postdoctoral researcher at Tampere University, Finland. I'm currently working on the (mathematical, and probabilistic) study of side-channel analysis applied to both existing and emerging cryptosystems. 
