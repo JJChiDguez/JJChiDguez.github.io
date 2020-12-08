@@ -7,6 +7,6 @@ filename: slides.md
 
 Go to the [Home page](index.md)
 
-1. [SAC 2018](pdfs/SAC18.pdf)
-2. [LATINCRYPT 2019](pdfs/LATINCRYPT19.pdf)
+1. [On the Cost of Computing Isogenies Between Supersingular Elliptic Curves (SAC 2018)](pdfs/SAC18.pdf)
+2. [Stronger and Faster Side-Channel Protections for CSIDH (LATINCRYPT 2019)](pdfs/LATINCRYPT19.pdf)
 
