@@ -1,6 +1,3 @@
 theme: jekyll-theme-minimal
 title: Hello there!
 logo: "images/hereiam.jpg"
-pages:
- - title: Slides
-   path: slides
