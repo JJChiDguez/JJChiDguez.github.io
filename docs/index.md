@@ -13,11 +13,10 @@ I got a bachelor's degree in mathematics in 2013 at the [Faculty of Mathematics 
 
 You can check the papers where I have collaborated by checking my [google scholar citations](https://scholar.google.com/citations?user=a3bmRrwAAAAJ) or my [ORCID](https://orcid.org/0000-0002-9753-7263).
 
+---
+
 I am used to playing guitar and watching Anime (Japanese cartoons) in my free time; additionally, I am starting to playing the violin.
 
 _Gracias_ for taking your time in reading my short Bio!
 
----
-
-Maybe you want to take a look at some of my
-- [x] [slides](slides.md)
+Maybe you want to take a look at some of my [slides](slides.md)
