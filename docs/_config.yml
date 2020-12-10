@@ -1,4 +1,4 @@
 theme: jekyll-theme-minimal
 title: Hello there!
 logo: "images/hereiam.jpg"
-date: \"$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE\"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
