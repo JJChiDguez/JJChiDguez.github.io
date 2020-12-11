@@ -1,9 +1,9 @@
 ---
-title: I share with you some of my slides!
+title: Slides from my talks
 filename: slides.md
 --- 
 
-# I share with you some of my slides!
+# Slides from my talks
 
 Go to the [Home page](index.md)
 

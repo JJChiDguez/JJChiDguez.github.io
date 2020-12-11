@@ -3,7 +3,7 @@ title: Conferences where I am or was a PC member
 filename: pcmember.md
 --- 
 
-# I share with you some of my slides!
+# Conferences where I am or was a PC member
 
 Go to the [Home page](index.md)
 
