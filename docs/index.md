@@ -11,7 +11,12 @@ I have also an interest in the cryptanalysis and secure C-code implementations o
 
 I got a bachelor's degree in mathematics in 2013 at the [Faculty of Mathematics of the Autonomous University of Yucatan](https://www.matematicas.uady.mx/). I moved to computer sciences for the master's and Ph.D. degrees, both of them were coursed at the [Cinvestav - IPN](https://www.cs.cinvestav.mx/en).
 
-You can check the papers where I have collaborated by checking my [google scholar citations](https://scholar.google.com/citations?user=a3bmRrwAAAAJ) or [![ORCID iD icon](https://orcid.org/sites/default/files/images/orcid_16x16.png) https://orcid.org/0000-0002-9753-7263](https://orcid.org/0000-0002-9753-7263). Maybe you want to take a look at some of my [slides](slides.md).
+Maybe you want to take a look at  
+- [Slides from my talks](slides.md);
+- [Preprints where I have collaborated](preprints.md);
+- [my google scholar citations](https://scholar.google.com/citations?user=a3bmRrwAAAAJ);
+- [![ORCID iD icon](https://orcid.org/sites/default/files/images/orcid_16x16.png) https://orcid.org/0000-0002-9753-7263](https://orcid.org/0000-0002-9753-7263)
+- [Conferences where I am or was a PC member](pcmember.md);
 
 ---
 
