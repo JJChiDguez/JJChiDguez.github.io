@@ -1,3 +1,3 @@
-# This is how I have built my personal web page!
+# This is how I have built my web page!
 
-You can access to my blog by using the link address [JJChiDguez.github.io](https://jjchidguez.github.io/)
+You can access to my web page by using the link address [JJChiDguez.github.io](https://jjchidguez.github.io/)
