@@ -7,7 +7,7 @@ filename: slides.md
 
 Go to the [Home page](index.md)
 
-1. On the Cost of Computing Isogenies Between Supersingular Elliptic Curves (SAC 2018) [[x]](pdfs/SAC18.pdf)
-2. Stronger and Faster Side-Channel Protections for CSIDH (LATINCRYPT 2019) [[x]](pdfs/LATINCRYPT19.pdf)
+1. On the Cost of Computing Isogenies Between Supersingular Elliptic Curves (SAC 2018) [&#x1f4be;](pdfs/SAC18.pdf)
+2. Stronger and Faster Side-Channel Protections for CSIDH (LATINCRYPT 2019) [&#x1f4be;](pdfs/LATINCRYPT19.pdf)
 3. Elliptic curves in classical and post-quantum cryptography (Doctoral thesis defense) [&#x1f4be;](pdfs/PhD-defense.pdf)
 
