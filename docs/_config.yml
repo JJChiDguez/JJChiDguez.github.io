@@ -1,6 +1,9 @@
 theme: jekyll-theme-minimal
 title: Hello there!
-description:
-        Jes&uacute;s-Javier Chi-Dom&iacute;nguez
-        &#x1F4E7; chidoys&#x40;gmail.com
+description: Jes&uacute;s-Javier Chi-Dom&iacute;nguez
+
+goals_page:
+        title: title goes hered
+        escription: description goes here
+
 logo: "images/hereiam.jpg"
