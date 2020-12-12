@@ -2,3 +2,10 @@ theme: jekyll-theme-minimal
 title: Hello there!
 author: Jes&uacute;s-Javier Chi-Dom&iacute;nguez
 logo: "images/hereiam.jpg"
+menu:
+        - title:        Slides from my talks
+          url:          slides.md
+        - title:        Preprints where I have collaborated
+          url:          preprints.md
+        - title:        Places where I am or was a PC member
+          url:          pcmember.md
