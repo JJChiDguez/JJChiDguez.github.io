@@ -5,13 +5,6 @@ filename: index.md
 
 # This is my webpage!
 
-<div align="right">
-E-mail: chidoys&#x40;gmail.com
-<br>
-Mobile (MXN):  +52 55 3576 1747
-<br>
-</div>
-
 I am a Postdoctoral researcher at [Tampere University, Finland](https://www.tuni.fi/en). I'm currently working on the (mathematical, and probabilistic) study of side-channel analysis applied to both existing and emerging cryptosystems. 
 
 I have also an interest in the cryptanalysis and secure C-code implementations of elliptic-curve and isogeny-based cryptographic protocols.
@@ -24,6 +17,12 @@ Maybe you want to take a look at
 - [my google scholar citations](https://scholar.google.com/citations?user=a3bmRrwAAAAJ);
 - [![ORCID iD icon](https://orcid.org/sites/default/files/images/orcid_16x16.png) https://orcid.org/0000-0002-9753-7263](https://orcid.org/0000-0002-9753-7263);
 - [Conferences where I am or was a PC member](pcmember.md).
+
+<div align="right">
+E-mail &#x1F4E7;: chidoys&#x40;gmail.com
+<br>
+Phone &#x260F;: +52 55 3576 1747
+</div>
 
 ---
 
