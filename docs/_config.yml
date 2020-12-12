@@ -3,3 +3,7 @@ title: Hello there!
 author: Jes&uacute;s-Javier Chi-Dom&iacute;nguez
 description: Jes&uacute;s-Javier Chi-Dom&iacute;nguez
 logo: "images/hereiam.jpg"
+link:
+        - label:        "Email"
+          icon:         "&#x1F4E7;"
+          url:          "mailto:chidoys@gmail.com"
