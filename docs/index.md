@@ -1,10 +1,9 @@
 ---
-title: This is my web page!
+title: Jes&uacute;s-Javier Chi-Dom&iacute;nguez
 filename: index.md
 --- 
 
 # This is my web page!
-## Jes&uacute;s-Javier Chi-Dom&iacute;nguez
 I am a Postdoctoral researcher at [Tampere University, Finland](https://www.tuni.fi/en). I'm currently working on the (mathematical, and probabilistic) study of side-channel analysis applied to both existing and emerging cryptosystems. 
 
 I have also an interest in the cryptanalysis and secure C-code implementations of elliptic-curve and isogeny-based cryptographic protocols.
