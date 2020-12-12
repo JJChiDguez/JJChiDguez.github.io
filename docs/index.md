@@ -4,7 +4,8 @@ filename: index.md
 --- 
 
 # This is my webpage!
-<div align="right">E-mail: chidoys&#x40;gmail.com</div>
+
+<div align="right">&#x1F4E7; chidoys&#x40;gmail.com</div>
 
 I am a Postdoctoral researcher at [Tampere University, Finland](https://www.tuni.fi/en). I'm currently working on the (mathematical, and probabilistic) study of side-channel analysis applied to both existing and emerging cryptosystems. 
 
