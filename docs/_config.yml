@@ -1,3 +1,4 @@
 theme: jekyll-theme-minimal
 title: Hello there!
 logo: "images/hereiam.jpg"
+date: '`r format(Sys.Date(), "%Y-%B-%d")`'
