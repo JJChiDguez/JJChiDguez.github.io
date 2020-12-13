@@ -19,7 +19,7 @@ Maybe you want to take a look at
 - [Conferences where I am or was a PC member](pcmember.md).
 
 <div align="right">
-email &#x1F4E7;: chidoys&#x40;gmail.com
+E-mail &#x1F4E7;: chidoys&#x40;gmail.com
 <br>
 Phone &#127474;&#127485; &#128241;: +52 55 3576 1747
 <!-- Phone &#127467;&#127470; &#128241;: -->
