@@ -14,7 +14,7 @@ I got a bachelor's degree in mathematics in 2013 at the [Faculty of Mathematics 
 Maybe you want to take a look at  
 - [Slides from my talks](slides.md);
 - [Preprints where I have collaborated](preprints.md);
-- [my google scholar citations](https://scholar.google.com/citations?user=a3bmRrwAAAAJ);
+- [&#128279; my google scholar citations](https://scholar.google.com/citations?user=a3bmRrwAAAAJ);
 - [![ORCID iD icon](https://orcid.org/sites/default/files/images/orcid_16x16.png) https://orcid.org/0000-0002-9753-7263](https://orcid.org/0000-0002-9753-7263);
 - [Conferences where I am or was a PC member](pcmember.md).
 
