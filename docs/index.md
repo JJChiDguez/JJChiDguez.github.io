@@ -13,6 +13,7 @@ I got a bachelor's degree in mathematics in 2013 at the [Faculty of Mathematics 
 
 Maybe you want to take a look at  
 - [Slides from my talks](slides.md);
+- [Publications where I have collaborated](publications.md);
 - [Preprints where I have collaborated](preprints.md);
 - [Conferences where I am or was a PC member](pcmember.md).
 
