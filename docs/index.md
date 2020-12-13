@@ -14,9 +14,12 @@ I got a bachelor's degree in mathematics in 2013 at the [Faculty of Mathematics 
 Maybe you want to take a look at  
 - [Slides from my talks](slides.md);
 - [Preprints where I have collaborated](preprints.md);
-- [&#128279; my google scholar citations](https://scholar.google.com/citations?user=a3bmRrwAAAAJ);
-- [![ORCID iD icon](https://orcid.org/sites/default/files/images/orcid_16x16.png) https://orcid.org/0000-0002-9753-7263](https://orcid.org/0000-0002-9753-7263);
 - [Conferences where I am or was a PC member](pcmember.md).
+
+Additionally, my scientific network profiles are listed below
+- [&#128279; Google Scholar](https://scholar.google.com/citations?user=a3bmRrwAAAAJ);
+- [&#128279; ResearchGate](https://www.researchgate.net/profile/Jesus_Javier_Chi-Dominguez);
+- [![ORCID iD icon](https://orcid.org/sites/default/files/images/orcid_16x16.png) https://orcid.org/0000-0002-9753-7263](https://orcid.org/0000-0002-9753-7263);
 
 <div align="right">
 E-mail &#x1F4E7;: chidoys&#x40;gmail.com
