@@ -21,7 +21,7 @@ Maybe you want to take a look at
 <div align="right">
 email &#x1F4E7;: chidoys&#x40;gmail.com
 <br>
-Phone :flag-mx: &#x260F;: +52 55 3576 1747
+Phone &#127474; &#x260F;: +52 55 3576 1747
 </div>
 
 ---
