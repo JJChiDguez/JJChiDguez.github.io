@@ -12,6 +12,7 @@ I have also an interest in the cryptanalysis and secure C-code implementations o
 I got a bachelor's degree in mathematics in 2013 at the [Faculty of Mathematics of the Autonomous University of Yucatan](https://www.matematicas.uady.mx/). I moved to computer sciences for the master's and Ph.D. degrees, both of them were coursed at the [Cinvestav - IPN](https://www.cs.cinvestav.mx/en).
 
 Maybe you want to take a look at  
+- [&#128196; CV](pdfs/CV-ChiDominguez.pdf);
 - [Slides from my talks](slides.md);
 - [Publications where I have collaborated](publications.md);
 - [Preprints where I have collaborated](preprints.md);
