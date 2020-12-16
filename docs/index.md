@@ -19,10 +19,10 @@ Maybe you want to take a look at
 - [Conferences where I am or was a PC member](pcmember.md).
 
 Additionally, my scientific network profiles are listed below
-- [<img alt="WhatsApp icon" src="images/icons/google-scholar.svg" style="width:16px;height:16px;"> Google Scholar](https://scholar.google.com/citations?user=a3bmRrwAAAAJ);
-- [<img alt="WhatsApp icon" src="images/icons/researchgate.svg" style="width:16px;height:16px;"> ResearchGate](https://www.researchgate.net/profile/Jesus_Javier_Chi-Dominguez);
-- [<img alt="WhatsApp icon" src="images/icons/linkedin.svg" style="width:16px;height:16px;"> LinkedIn](https://www.linkedin.com/in/jesus-javier-chi-dominguez-1b4282108/);
-- [<img alt="WhatsApp icon" src="images/icons/orcid-id.svg" style="width:16px;height:16px;"> https://orcid.org/0000-0002-9753-7263](https://orcid.org/0000-0002-9753-7263).
+- [<img alt="Google Scholar icon" src="images/icons/google-scholar.svg" style="width:16px;height:16px;"> Google Scholar](https://scholar.google.com/citations?user=a3bmRrwAAAAJ);
+- [<img alt="ResearchGate icon" src="images/icons/researchgate.svg" style="width:16px;height:16px;"> ResearchGate](https://www.researchgate.net/profile/Jesus_Javier_Chi-Dominguez);
+- [<img alt="LinkedIn icon" src="images/icons/linkedin.svg" style="width:16px;height:16px;"> LinkedIn](https://www.linkedin.com/in/jesus-javier-chi-dominguez-1b4282108/);
+- [<img alt="ORCID id icon" src="images/icons/orcid-id.svg" style="width:16px;height:16px;"> https://orcid.org/0000-0002-9753-7263](https://orcid.org/0000-0002-9753-7263).
 
 <div align="right">
 E-mail &#x1F4E7;: chidoys&#x40;gmail.com
