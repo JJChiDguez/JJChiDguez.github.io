@@ -27,7 +27,7 @@ Additionally, my scientific network profiles are listed below
 <div align="right">
 E-mail &#x1F4E7;: chidoys&#x40;gmail.com
 <br>
-Phone &#127474;&#127485; <!--&#128241;--><img alt="WhatsApp icon" src="images/icons/WhatsApp.svg" style="width:16px;height:16px;">: +52 1 55 3576 1747
+Phone &#127474;&#127485; <!--&#128241;--><img alt="WhatsApp icon" src="images/icons/WhatsApp.svg" style="width:14px;height:14px;">: +52 1 55 3576 1747
 <!-- Phone &#127467;&#127470; &#128241;: -->
 
 </div>
