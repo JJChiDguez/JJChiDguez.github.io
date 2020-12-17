@@ -14,10 +14,10 @@ I got a bachelor's degree in mathematics in 2013 at the [Faculty of Mathematics 
 Maybe you want to take a look at  
 - [<img alt="CV icon" src="images/icons/cv.svg" style="width:16px;height:16px;"> Curriculum Vitae](pdfs/CV-ChiDominguez.pdf);
 - [<img alt="Slides icon" src="images/icons/slides.svg" style="width:16px;height:16px;"> Slides from my talks](slides.md);
-- [<img alt="Publications icon" src="images/icons/publications.svg" style="width:16px;height:16px;"> Publications where I have collaborated](publications.md);
-- [<img alt="Preprints icon" src="images/icons/preprints.svg" style="width:16px;height:16px;"> Preprints where I have collaborated](preprints.md);
+- [<img alt="Publications icon" src="images/icons/publications.svg" style="width:16px;height:16px;"> Publications](publications.md);
+- [<img alt="Preprints icon" src="images/icons/preprints.svg" style="width:16px;height:16px;"> Preprints](preprints.md);
 - [<img alt="PC member icon" src="images/icons/worldwide-earth-globe.svg" style="width:16px;height:16px;"> Conferences where I am or was a PC member](pcmember.md).
-- [<img alt="Repository icon" src="images/icons/package-box.svg" style="width:16px;height:16px;"> Software repository projects I have collaborated to](repositories.md)
+- [<img alt="Repository icon" src="images/icons/package-box.svg" style="width:16px;height:16px;"> Collaboration in software repository projects](repositories.md)
 
 Additionally, my scientific network profiles are listed below
 - [<img alt="Google Scholar icon" src="images/icons/google-scholar.svg" style="width:16px;height:16px;"> Google Scholar](https://scholar.google.com/citations?user=a3bmRrwAAAAJ);

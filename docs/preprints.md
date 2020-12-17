@@ -1,9 +1,9 @@
 ---
-title: Preprints where I have collaborated
+title: Preprints
 filename: preprints.md
 --- 
 
-# Preprints where I have collaborated
+# Preprints
 
 Go to the [Home page](index.md)
 

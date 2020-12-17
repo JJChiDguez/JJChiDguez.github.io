@@ -1,9 +1,9 @@
 ---
-title: Publications where I have collaborated
+title: Publications
 filename: publications.md
 --- 
 
-# Publications where I have collaborated
+# Publications
 
 Go to the [Home page](index.md)
 

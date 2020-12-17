@@ -1,9 +1,9 @@
 ---
-title: Software repository projects I have collaborated to
+title: Collaboration in software repository projects
 filename: repositories.md
 --- 
 
-# Software repository projects I have collaborated to
+# Collaboration in software repository projects
 
 Go to the [Home page](index.md)
 
