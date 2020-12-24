@@ -26,7 +26,7 @@ Additionally, my scientific network profiles are listed below
 - [<img alt="ORCID id icon" src="images/icons/orcid-id.svg" style="width:16px;height:16px;"> https://orcid.org/0000-0002-9753-7263](https://orcid.org/0000-0002-9753-7263).
 
 <div align="right">
-E-mail &#x1F4E7;: <chidoys&#x40;gmail.com>
+E-mail &#x1F4E7;: chidoys&#x40;gmail.com
 <br>
 Phone &#127467;&#127470; &#128241;: +358 41 7593821 
 <br>
