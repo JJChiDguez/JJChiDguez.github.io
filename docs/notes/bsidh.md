@@ -5,7 +5,7 @@ filename: notes/bsidh.md
 
 # The twist-agnostic SIDH protocol, named B-SIDH
 
-Go to the [Previous page](notes.md)
+Go to the [Previous page](../notes.md)
 
 In the B-SIDH protocol proposed by Costello in [1], Alice and Bob work in the (p + 1)- and (p - 1)-torsion of a set of supersingular curves defined over F<sub>p<sup>2</sup></sub> and the set of their quadratic twist, respectively. Certainly, B-SIDH can be viewed as a twist agnostic of SIDH protocol [^1], it allows optimized isogeny and Montgomery arithmetic by only using the x-coordinate of the points along with the A coefficient of the curve.
 
