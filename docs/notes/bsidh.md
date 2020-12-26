@@ -17,7 +17,10 @@ Let E &#x2f; F<sub>p<sup>2</sup></sub> : By<sup>2</sup> = x<sup>3</sup> + Ax<sup
 | | E<sub>b</sub>, &#x0278;<sub>b</sub>(P<sub>a</sub>), &#x0278;<sub>b</sub>(Q<sub>a</sub>) <br/> &#5176;&#x2015;&#x2015;&#x2015;&#x2015;&#x2015;&#x2015;&#x2015; | sk<sub>b</sub> &#x27F5; &#x7b; 0, &#x2026;,  N - 1 &#x7d; <br/> R<sub>b</sub> = P<sub>b</sub> + [sk<sub>b</sub>]Q<sub>b</sub> <br/> &#x0278;<sub>b</sub> : E &#x27F6; E &#x2f; &#5176;R<sub>b</sub>&#5171; <br/> E<sub>b</sub> = E &#x2f; &#5176;R<sub>b</sub>&#5171; |
 | E<sub>a,b</sub> = E<sub>b</sub> &#x2f; &#5176;&#x0278;<sub>b</sub>(R<sub>a</sub>)&#5171; | | E<sub>a,b</sub> = E<sub>a</sub> &#x2f; &#5176;&#x0278;<sub>a</sub>(R<sub>b</sub>)&#5171; |
 
+The protocol flow of B-SIDH must perform two main phases, namely, key generation (`keygen`) and secret sharing (`derive`). In the `keygen` block, the isogeny evaluation of the projectivized x-coordinate points x(P), x(Q), and x(P - Q) is required [^2]. Thus for B-SIDH, `derive` is significantly cheaper than `keygen`. However, the most important challenge in any implementation of B-SIDH corresponds with the high computational cost associated with the large degree of isogenies involved in its execution; in contrast, B-SIDH also allows to work over smaller fields than SIDH does.
+
 [^1]: For more details regarding the SIDH protocol, to read [2](https://doi.org/10.1007/978-3-642-25405-5_2) and [3](https://doi.org/10.1515/jmc-2012-0015).
+[^2]: Here, P &#x220A; &#x27F5;P<sub>a</sub>, P<sub>b</sub>&#x7d;, and  Q &#x220A; &#x27F5;Q<sub>a</sub>, Q<sub>b</sub>&#x7d;.
 
 ---
 
