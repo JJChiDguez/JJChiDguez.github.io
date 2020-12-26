@@ -7,7 +7,7 @@ filename: notes/bsidh.md
 
 Go to the [Previous page](../notes.md)
 
-In the B-SIDH protocol proposed by Costello in [1], Alice and Bob work in the (p + 1)- and (p - 1)-torsion of a set of supersingular curves defined over F<sub>p<sup>2</sup></sub> and the set of their quadratic twist, respectively. In summary, B-SIDH can be viewed as a twist agnostic of SIDH protocol [^1], which allows an optimized isogeny and Montgomery arithmetic by only using the x-coordinate of the points along with the A coefficient of the curve.
+In the B-SIDH protocol proposed by Costello in [[1]](#C2020), Alice and Bob work in the (p + 1)- and (p - 1)-torsion of a set of supersingular curves defined over F<sub>p<sup>2</sup></sub> and the set of their quadratic twist, respectively. In summary, B-SIDH can be viewed as a twist agnostic of SIDH protocol [^1], which allows an optimized isogeny and Montgomery arithmetic by only using the x-coordinate of the points along with the A coefficient of the curve.
 
 Let E &#x2f; F<sub>p<sup>2</sup></sub> : By<sup>2</sup> = x<sup>3</sup> + Ax<sup>2</sup> + x be a supersingular elliptic curve with (p+1)<sup>2</sup> rational points, two rational points P<sub>a</sub>, Q<sub>a</sub> &#x220A; E&#x5b; p + 1&#x5d; of order M, and two zero-trace F<sub>p<sup>4</sup></sub>-rational points P<sub>b</sub>, Q<sub>b</sub> &#x220A; E&#x5b; p - 1&#x5d; of order N. Then, B-SIDH can be summarized as follows: 
 
