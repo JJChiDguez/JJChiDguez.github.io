@@ -1,9 +1,9 @@
 ---
-title: The twist-agnostic SIDH protocol, named B-SIDH
+title: B-SIDH, the twist-agnostic SIDH protocol
 filename: notes/bsidh.md
 ---
 
-# The twist-agnostic SIDH protocol, named B-SIDH
+# B-SIDH, the twist-agnostic SIDH protocol
 
 Go to the [Previous page](../notes.md)
 
