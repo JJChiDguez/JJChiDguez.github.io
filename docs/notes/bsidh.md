@@ -7,7 +7,7 @@ filename: notes/bsidh.md
 
 Go to the [Previous page](../notes.md)
 
-In the B-SIDH protocol proposed by Costello in [[1]](#C2020), Alice and Bob work in the (p + 1)- and (p - 1)-torsion of a set of supersingular curves defined over F<sub>p<sup>2</sup></sub> and the set of their quadratic twist, respectively. In summary, B-SIDH can be viewed as a twist agnostic of SIDH protocol [^1], which allows an optimized isogeny and Montgomery arithmetic by only using the x-coordinate of the points along with the A coefficient of the curve.
+In the B-SIDH protocol proposed by Costello in [&#x5b;1&#x5d;](#Costello20), Alice and Bob work in the (p + 1)- and (p - 1)-torsion of a set of supersingular curves defined over F<sub>p<sup>2</sup></sub> and the set of their quadratic twist, respectively. In summary, B-SIDH can be viewed as a twist agnostic of SIDH protocol [^1], which allows an optimized isogeny and Montgomery arithmetic by only using the x-coordinate of the points along with the A coefficient of the curve.
 
 Let E &#x2f; F<sub>p<sup>2</sup></sub> : By<sup>2</sup> = x<sup>3</sup> + Ax<sup>2</sup> + x be a supersingular elliptic curve with (p+1)<sup>2</sup> rational points, two rational points P<sub>a</sub>, Q<sub>a</sub> &#x220A; E&#x5b; p + 1&#x5d; of order M, and two zero-trace F<sub>p<sup>4</sup></sub>-rational points P<sub>b</sub>, Q<sub>b</sub> &#x220A; E&#x5b; p - 1&#x5d; of order N. Then, B-SIDH can be summarized as follows: 
 
@@ -19,13 +19,13 @@ Let E &#x2f; F<sub>p<sup>2</sup></sub> : By<sup>2</sup> = x<sup>3</sup> + Ax<sup
 
 The protocol flow of B-SIDH must perform two main phases, namely, key generation (`keygen`) and secret sharing (`derive`). In the `keygen` block, the isogeny evaluation of the projectivized x-coordinate points x(P), x(Q), and x(P - Q) is required [^2]. Thus for B-SIDH, `derive` is significantly cheaper than `keygen`. However, the most important challenge in any implementation of B-SIDH corresponds with the high computational cost associated with the large degree of isogenies involved in its execution; in contrast, B-SIDH also allows to work over smaller fields than SIDH does.
 
-[^1]: For more details regarding the SIDH protocol, to read [2](https://doi.org/10.1007/978-3-642-25405-5_2) and [3](https://doi.org/10.1515/jmc-2012-0015).
+[^1]: For more details regarding the SIDH protocol, to read [&#x5b;2&#x5d;](#DJ11) and [&#x5b;3&#x5d;](#DJP14).
 [^2]: Here, P &#x220A; &#x27F5;P<sub>a</sub>, P<sub>b</sub>&#x7d;, and  Q &#x220A; &#x27F5;Q<sub>a</sub>, Q<sub>b</sub>&#x7d;.
 
 ---
 
 **References**
-: <a id="C2020"></a>[1] C. Costello, **B-SIDH: Supersingular Isogeny Diffie-Hellman Using Twisted Torsion**. _Advances in Cryptology - ASIACRYPT 2020_, LNCS 12492, 440-463, 2020 [&#128279;](https://doi.org/10.1007/978-3-030-64834-3_15).
+: <a id="Costello20"></a>[1] C. Costello, **B-SIDH: Supersingular Isogeny Diffie-Hellman Using Twisted Torsion**. _Advances in Cryptology - ASIACRYPT 2020_, LNCS 12492, 440-463, 2020 [&#128279;](https://doi.org/10.1007/978-3-030-64834-3_15).
 : <a id="DJ11"></a> [2] L. De Feo, and D. Jao, **Towards Quantum-Resistant Cryptosystems from Supersingular Elliptic Curve Isogenies**. _Post-Quantum Cryptography - PQCrypto 2011_, LNCS 7071, 19-34, 2011 [&#128279;](https://doi.org/10.1007/978-3-642-25405-5_2).
 : <a id="DJP14"></a> [3] L. De Feo, D. Jao, and J. Pl&ucirc;t, **Towards quantum-resistant cryptosystems from supersingular elliptic curve isogenies**, _Journal of Mathematical Cryptology_, 8 (3), 209-247, 2014 [&#128279;](https://doi.org/10.1515/jmc-2012-0015).
 
