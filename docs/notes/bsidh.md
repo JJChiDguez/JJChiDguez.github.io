@@ -22,12 +22,12 @@ The protocol flow of B-SIDH must perform two main phases, namely, key generation
 [^1]: For more details regarding the SIDH protocol, to read [2](https://doi.org/10.1007/978-3-642-25405-5_2) and [3](https://doi.org/10.1515/jmc-2012-0015).
 [^2]: Here, P &#x220A; &#x27F5;P<sub>a</sub>, P<sub>b</sub>&#x7d;, and  Q &#x220A; &#x27F5;Q<sub>a</sub>, Q<sub>b</sub>&#x7d;.
 
----
+===================
 
 ### References
 
-1. C. Costello, **B-SIDH: Supersingular Isogeny Diffie-Hellman Using Twisted Torsion**. _Advances in Cryptology - ASIACRYPT 2020_, LNCS 12492, 440-463, 2020 [&#128279;](https://doi.org/10.1007/978-3-030-64834-3_15).
-1. L. De Feo, and D. Jao, **Towards Quantum-Resistant Cryptosystems from Supersingular Elliptic Curve Isogenies**. _Post-Quantum Cryptography - PQCrypto 2011_, LNCS 7071, 19-34, 2011 [&#128279;](https://doi.org/10.1007/978-3-642-25405-5_2).
-1. L. De Feo, D. Jao, and J. Pl&ucirc;t, **Towards quantum-resistant cryptosystems from supersingular elliptic curve isogenies**, _Journal of Mathematical Cryptology_, 8 (3), 209-247, 2014 [&#128279;](https://doi.org/10.1515/jmc-2012-0015).
+: [1] C. Costello, **B-SIDH: Supersingular Isogeny Diffie-Hellman Using Twisted Torsion**. _Advances in Cryptology - ASIACRYPT 2020_, LNCS 12492, 440-463, 2020 [&#128279;](https://doi.org/10.1007/978-3-030-64834-3_15).
+: [2] L. De Feo, and D. Jao, **Towards Quantum-Resistant Cryptosystems from Supersingular Elliptic Curve Isogenies**. _Post-Quantum Cryptography - PQCrypto 2011_, LNCS 7071, 19-34, 2011 [&#128279;](https://doi.org/10.1007/978-3-642-25405-5_2).
+: [3] L. De Feo, D. Jao, and J. Pl&ucirc;t, **Towards quantum-resistant cryptosystems from supersingular elliptic curve isogenies**, _Journal of Mathematical Cryptology_, 8 (3), 209-247, 2014 [&#128279;](https://doi.org/10.1515/jmc-2012-0015).
 
 ---
