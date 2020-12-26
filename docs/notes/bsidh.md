@@ -20,9 +20,9 @@ To be more precise, let E &#x2f; F<sub>p<sup>2</sup></sub> : By<sup>2</sup> = x<
 [^1]: For more details regarding the SIDH protocol, to read [2](https://doi.org/10.1007/978-3-642-25405-5_2) and [3](https://doi.org/10.1515/jmc-2012-0015).
 
 ---
+
 ### References
-[1](https://doi.org/10.1007/978-3-030-64834-3_15) C. Costello, **B-SIDH: Supersingular Isogeny Diffie-Hellman Using Twisted Torsion**. _Advances in Cryptology - ASIACRYPT 2020_, LNCS 12492, 440-463, 2020.
 
-[2](https://doi.org/10.1007/978-3-642-25405-5_2) L. De Feo, and D. Jao, **Towards Quantum-Resistant Cryptosystems from Supersingular Elliptic Curve Isogenies**. _Post-Quantum Cryptography - PQCrypto 2011_, LNCS 7071, 19-34, 2011.
-
-[3](https://doi.org/10.1515/jmc-2012-0015) L. De Feo, D. Jao, and J. Pl&ucirc;t, **Towards quantum-resistant cryptosystems from supersingular elliptic curve isogenies**, _Journal of Mathematical Cryptology_, 8 (3), 209-247, 2014.
+1. C. Costello, **B-SIDH: Supersingular Isogeny Diffie-Hellman Using Twisted Torsion**. _Advances in Cryptology - ASIACRYPT 2020_, LNCS 12492, 440-463, 2020 [&#128279;](https://doi.org/10.1007/978-3-030-64834-3_15).
+1. L. De Feo, and D. Jao, **Towards Quantum-Resistant Cryptosystems from Supersingular Elliptic Curve Isogenies**. _Post-Quantum Cryptography - PQCrypto 2011_, LNCS 7071, 19-34, 2011 [&#128279;](https://doi.org/10.1007/978-3-642-25405-5_2).
+1. L. De Feo, D. Jao, and J. Pl&ucirc;t, **Towards quantum-resistant cryptosystems from supersingular elliptic curve isogenies**, _Journal of Mathematical Cryptology_, 8 (3), 209-247, 2014 [&#128279;](https://doi.org/10.1515/jmc-2012-0015).
