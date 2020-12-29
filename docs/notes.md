@@ -8,4 +8,4 @@ filename: notes.md
 Go to the [Home page](index.md)
 
 1. [B-SIDH, the twist-agnostic SIDH protocol](notes/bsidh.md);
-<!--1. [The Commutative Supersingular Isogeny Diffie-Hellman (CSIDH) protocol](notes/csidh.md);-->
+<!--1. [CSIDH, the Commutative SIDH protocol](notes/csidh.md);-->
