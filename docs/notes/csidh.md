@@ -25,7 +25,7 @@ Let E &#x2f; F<sub>p<sup>2</sup></sub> : By<sup>2</sup> = x<sup>3</sup> + Ax<sup
 **References**
 : <a id="ACDRH20"></a> [1] G. Adj, J.-J. Chi-Dom&iacute;nguez, F. Rodr&iacute;guez-Henr&iacute;quez, **On new V&eacute;lu's formulae and their applications to CSIDH and B-SIDH constant-time implementations**. _IACR Cryptol. ePrint Arch._, 2020: 1109 (2020) [&#128279;](https://eprint.iacr.org/2020/1109).
 : <a id="BDLS20"></a> [2] D. J. Bernstein, L. De Feo, A. Leroux, B. Smith, **Faster computation of isogenies of large prime degree**. _IACR Cryptol. ePrint Arch._, 2020: 341 (2020) [&#128279;](https://eprint.iacr.org/2020/341).
-: <a id="CLMPR18"></a> [3] W. Castryck, T. Lange, C. Martindale, L. Panny, J. Renes, ** CSIDH: An Efficient Post-Quantum Commutative Group Action**. _Advances in Cryptology - ASIACRYPT 2018_, LNCS 11274 395-427, 2018 [&#128279;](https://doi.org/10.1007/978-3-030-03332-3_15). 
+: <a id="CLMPR18"></a> [3] W. Castryck, T. Lange, C. Martindale, L. Panny, J. Renes, ** CSIDH: An Efficient Post-Quantum Commutative Group Action**. _Advances in Cryptology - ASIACRYPT 2018_, LNCS 11274, 395-427, 2018 [&#128279;](https://doi.org/10.1007/978-3-030-03332-3_15). 
 : <a id="CH17"></a> [4] C. Costello, H&uuml;seyin Hisil, **A Simple and Compact Algorithm for SIDH with Arbitrary Degree Isogenies**. _Advances in Cryptology - ASIACRYPT 2017_, LNCS 10625, 303-329, 2017 [&#128279;](https://doi.org/10.1007/978-3-319-70697-9_11).
 
 ---
