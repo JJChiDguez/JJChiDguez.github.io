@@ -14,14 +14,14 @@ Each of the following items contain an introductory overview of their correspond
 	1. [CSIDH, the Commutative SIDH protocol](notes.md) 
 	<br><label for="file">TBA:</label><progress id="file" value="30" max="100"> 30% </progress>;
 	1. [The Supersingular Isogeny Diffie-Hellman protocol](notes.md) 
-	<br><label for="file">TBA:</label><progress id="file" value="15" max="100"> 0% </progress>;
+	<br><label for="file">TBA:</label><progress id="file" value="5" max="100"> 5% </progress>;
 * Let's talk about _lattices_ on (EC)DSA
 	1. [timings attacks](notes.md)
-	<br><label for="file">TBA:</label><progress id="file" value="5" max="100"> 0% </progress>;
+	<br><label for="file">TBA:</label><progress id="file" value="5" max="100"> 5% </progress>;
 	1. [unsigned wNAF trace attacks](notes.md)
-	<br><label for="file">TBA:</label><progress id="file" value="5" max="100"> 0% </progress>;
+	<br><label for="file">TBA:</label><progress id="file" value="5" max="100"> 5% </progress>;
 	1. [signed wNAF trace attacks](notes.md)
-	<br><label for="file">TBA:</label><progress id="file" value="5" max="100"> 0% </progress>;
+	<br><label for="file">TBA:</label><progress id="file" value="5" max="100"> 5% </progress>;
 
 <!--<br><label for="file">TBA:</label><progress id="file" value="15" max="100"> 15% </progress>;-->
 <!--1. [CSIDH, the Commutative SIDH protocol](notes/csidh.md);-->
