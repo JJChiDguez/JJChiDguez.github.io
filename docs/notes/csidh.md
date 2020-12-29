@@ -3,7 +3,7 @@ title: CSIDH, the Commutative SIDH protocol
 filename: notes/csidh.md
 ---
 
-# B-SIDH, the twist-agnostic SIDH protocol
+# CSIDH, the Commutative SIDH protocol
 
 Go to the [Previous page](../notes.md)
 In 2018, Castryck, Lange, Martindale, Panny, and Renes proposed the CSIDH protocol [&#x5b;1&#x5d;](#CLMPR18), which can be viewed as a reinterpretation of Couveignes [&#x5b;3&#x5d;](#CouveignesXX) and Rostovtsev-Stolbunov [&#x5b;2](#BDLS20), [1&#x5d;](#ACDRH20) schemes but this time using supersingular curves defined over a prime field. 
@@ -18,7 +18,7 @@ Let E &#x2f; F<sub>p<sup>2</sup></sub> : By<sup>2</sup> = x<sup>3</sup> + Ax<sup
 | | E<sub>b</sub>, &#x0278;<sub>b</sub>(P<sub>a</sub>), &#x0278;<sub>b</sub>(Q<sub>a</sub>) <br/> &#5176;&#x2015;&#x2015;&#x2015;&#x2015;&#x2015;&#x2015;&#x2015; | sk<sub>b</sub> &#x27F5; &#x7b; 0, &#x2026;,  N - 1 &#x7d; <br/> R<sub>b</sub> = P<sub>b</sub> + [sk<sub>b</sub>]Q<sub>b</sub> <br/> &#x0278;<sub>b</sub> : E &#x27F6; E &#x2f; &#5176;R<sub>b</sub>&#5171; <br/> E<sub>b</sub> = E &#x2f; &#5176;R<sub>b</sub>&#5171; |
 | E<sub>a,b</sub> = E<sub>b</sub> &#x2f; &#5176;&#x0278;<sub>b</sub>(R<sub>a</sub>)&#5171; | | E<sub>a,b</sub> = E<sub>a</sub> &#x2f; &#5176;&#x0278;<sub>a</sub>(R<sub>b</sub>)&#5171; |
 
-[^1]: You can deep into the isogeny evaluations/constructions on Montgomery curves by reading [&#x5b;4&#x5d;](#CH17) and [&#x5b;2](#BDLS20), [1&#x5d;](#ACDRH20) for the traditional and the new sqrt V&eacute;lu formul&aelig;, respectively.
+[^1]: You can deep into the isogeny constructions/evaluations on Montgomery curves by reading [&#x5b;4&#x5d;](#CH17) and [&#x5b;2](#BDLS20), [1&#x5d;](#ACDRH20) for the traditional and the new sqrt V&eacute;lu formul&aelig;, respectively.
 
 ---
 
