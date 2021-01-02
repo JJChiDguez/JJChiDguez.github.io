@@ -9,21 +9,20 @@ Go to the [Previous page](../notes.md)
 
 In both **DSA** and **ECDSA** (the elliptic-curve **DSA**) procedures, the signature output is a pair (r,s) of integer numbers such that
 <center><a id="signature-rs"></a> s &#xd7; k &#x2261; &#x28; h + &#x3B1; &#xd7; r &#x29; mod q,</center>
-where &#x3B1;, h, and k are the private key, the hash of the message to be signed, and the _ephemeral_ key, respectively. In particular, r is either the output of exponentiation (**DSA** case: g<sup>k</sup>) or a scalar point multiplication (**ECDSA** case: &#x5b;k&#x5d;P) procedure.
+where &#x3B1;, h, and k are the private key, the hash of the message to be signed, and the _ephemeral_ key [^1], respectively. In particular, r is either the output of the exponentiation (**DSA** case: g<sup>k</sup>) or the scalar point multiplication (**ECDSA** case: &#x5b;k&#x5d;P) procedure.
 
 The following lattice descriptions are based on the results presented in [&#x5b;4&#x5d;](#DEJAVU20), which is more focused on the practical Side-Channel Analysis. However, for a deep read, I suggest the paper by [Gabrielle De Micheli and Nadia Heninger](#MH20).
 
 
 ### Timing attacks
 
-Lattice-based cryptanalysis using timing attacks are commonly focused on determining a few bits from the _ephemeral_ key [^1], which can be easily correlated with the private key by using the [above equation](#signature-rs). For instance, if the exponentiation or scalar point multiplication procedures have been implemented in _**non**_-constant-time, then by a simple timing analysis it is possible to find a sample of d signatures (r<sub>i</sub>, s<sub>i</sub>) with shorter-than-average _ephemeral_ key k<sub>i</sub> &#x3c; q / 2<sup>&#x2113;<sub>i</sub></sup> for some positive integer &#x2113;<sub>i</sub>. Moreover, the dimensional-(d+1) lattice
+Lattice-based cryptanalysis using timing attacks are commonly focused on determining a few bits from the _ephemeral_ key, which can be easily correlated with the private key by using the [above equation](#signature-rs). For instance, if the exponentiation or scalar point multiplication procedures have been implemented in _**non**_-constant-time, then by a simple timing analysis it is possible to find a sample of d signatures (r<sub>i</sub>, s<sub>i</sub>) with shorter-than-average _ephemeral_ key k<sub>i</sub> &#x3c; q / 2<sup>&#x2113;<sub>i</sub></sup> for some positive integer &#x2113;<sub>i</sub>. Moreover, the dimensional-(d+1) lattice
 
 | <br/><br/>B =<br/> | &#x5b; 2W<sub>1</sub> &#xd7; q <br/>&#x5b; 0 <br/>&#x5b; &#x22EE; <br/>&#x5b; 0 | 0 <br/>2W<sub>2</sub> &#xd7; q <br/>&#x22F1; <br/>&#x22EF; | &#x22EF; <br/>&#x22F1; <br/>&#x22F1; <br/>0 | &#x22EF; <br/>&#x22EF; <br/>0  <br/>2W<sub>d</sub> &#xd7; q | 0 &#x5d; <br/>&#x22EE; &#x5d; <br/>&#x22EE; &#x5d; <br/>0 &#x5d; |
 | ---: | :---                   | :---           | :---    | :---    | ---:       |
 |     | &#x5b; 2W<sub>1</sub> &#xd7; t<sub>1</sub> | 2W<sub>2</sub> &#xd7; t<sub>2</sub> | &#x22F1; | 2W<sub>d</sub> &#xd7; t<sub>d</sub> | 1 &#x5d;    |
 
-
-and the integer vectors u = &#x28; 2W<sub>1</sub> &#xd7; &ucirc;<sub>1</sub> + q, &#x2026;, 2W<sub>1</sub> &#xd7; &ucirc;<sub>1</sub> + q, 0  &#x29;, z = &#x28; &#x03BB;<sub>1</sub>, &#x2026;, &#x03BB;<sub>d</sub>, &#x3B1; &#x29;, and y = &#x28; 2W<sub>1</sub> &#xd7; &#x03BD;<sub>1</sub>, &#x2026;, 2W<sub>d</sub> &#xd7; &#x03BD;<sub>d</sub>, &#x3B1; &#x29; satisfy zB - u = y with  W<sub>i</sub> = 2<sup>i</sup>, &#x03BB;<sub>i</sub> &#x220A; &#x7b; -q, &#x2026;, q &#x7d;, and &#x03BD;<sub>i</sub> &#x220A; &#x7b; -(q - 1)/2, &#x2026;, (q - 1)/2 &#x7d; the signed modular reduction of &ucirc;<sub>i</sub> + q/(2W<sub>i</sub>) mod q.
+and the integer vectors u = &#x28; 2W<sub>1</sub> &#xd7; &ucirc;<sub>1</sub> + q, &#x2026;, 2W<sub>1</sub> &#xd7; &ucirc;<sub>1</sub> + q, 0  &#x29;, z = &#x28; &#x03BB;<sub>1</sub>, &#x2026;, &#x03BB;<sub>d</sub>, &#x3B1; &#x29;, and y = &#x28; 2W<sub>1</sub> &#xd7; &#x03BD;<sub>1</sub>, &#x2026;, 2W<sub>d</sub> &#xd7; &#x03BD;<sub>d</sub>, &#x3B1; &#x29; satisfy zB - u = y with  W<sub>i</sub> = 2<sup>&#x2113;<sub>i</sub></sup>, &#x03BB;<sub>i</sub> &#x220A; &#x7b; -q, &#x2026;, q &#x7d;, and &#x03BD;<sub>i</sub> &#x220A; &#x7b; -(q - 1)/2, &#x2026;, (q - 1)/2 &#x7d; the signed modular reduction of &ucirc;<sub>i</sub> + q/(2W<sub>i</sub>) mod q.
 
 In other words, the private key &#x3B1; recovery can be reduced to a Closest Vector Problem (CVP) instance of a given lattice. However, any CVP instance with input lattice B and vector u can be mapped into a Shortest Vector Problem (SVP) instance by looking for a short lattice basis vector in the dimensional-(d + 2) lattice B'
 
