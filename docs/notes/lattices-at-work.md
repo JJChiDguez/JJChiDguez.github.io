@@ -14,7 +14,7 @@ where &#x3B1;, h, and k are the private key, the hash of the message to be signe
 The following lattice descriptions are based on the results presented in [&#x5b;4&#x5d;](#DEJAVU20), which is more focused on the practical Side-Channel Analysis. However, for a deep read, I suggest the paper by [Gabrielle De Micheli and Nadia Heninger](#MH20).
 
 
-### Timing attacks
+## Timing attacks
 
 Lattice-based cryptanalysis using timing attacks are commonly focused on determining a few bits from the _ephemeral_ key, which can be easily correlated with the private key by using the [above equation](#signature-rs). For instance, if the exponentiation or scalar point multiplication procedures have been implemented in _**non**_-constant-time, then by a simple timing analysis it is possible to find a sample of d signatures (r<sub>i</sub>, s<sub>i</sub>) with shorter-than-average _ephemeral_ key k<sub>i</sub> &#x3c; q / 2<sup>&#x2113;<sub>i</sub></sup> for some positive integer &#x2113;<sub>i</sub>. Moreover, the dimensional-(d+1) lattice
 
@@ -24,14 +24,11 @@ Lattice-based cryptanalysis using timing attacks are commonly focused on determi
 
 and the integer vectors u = &#x28; 2W<sub>1</sub> &#xd7; &ucirc;<sub>1</sub> + q, &#x2026;, 2W<sub>1</sub> &#xd7; &ucirc;<sub>1</sub> + q, 0  &#x29;, z = &#x28; &#x03BB;<sub>1</sub>, &#x2026;, &#x03BB;<sub>d</sub>, &#x3B1; &#x29;, and y = &#x28; 2W<sub>1</sub> &#xd7; &#x03BD;<sub>1</sub>, &#x2026;, 2W<sub>d</sub> &#xd7; &#x03BD;<sub>d</sub>, &#x3B1; &#x29; satisfy zB - u = y with  W<sub>i</sub> = 2<sup>&#x2113;<sub>i</sub></sup>, &#x03BB;<sub>i</sub> &#x220A; &#x7b; -q, &#x2026;, q &#x7d;, and &#x03BD;<sub>i</sub> &#x220A; &#x7b; -(q - 1)/2, &#x2026;, (q - 1)/2 &#x7d; the signed modular reduction of &ucirc;<sub>i</sub> + q/(2W<sub>i</sub>) mod q.
 
-In other words, the private key &#x3B1; recovery can be reduced to a Closest Vector Problem (CVP) instance of a given lattice. However, any CVP instance with input lattice B and vector u can be mapped into a Shortest Vector Problem (SVP) instance by looking for a short lattice basis vector in the dimensional-(d + 2) lattice B'
-
-
 | &#x5b; B | 0 &#x5d; |
 | ---:     | :---     |
 | &#x5b; u | q &#x5d; |
 
-### wNAF trace approach
+## wNAF trace approach
 
 Let's focus on scalar point multiplications using wNAF scalar codifications. Assuming a window width equals w, two kwnon consecutive non-zero coefficients &#x03BA;<sub>j</sub> and &#x03BA;<sub>j + &#x2113;</sub> leads to an equation with &#x03B4; &#x3B1;-correlated bits. Each column of the lattice B (with same shape as given above), is determined by the pair (&#x03BA;<sub>j</sub>, &#x03BA;<sub>j + &#x2113;</sub>) along with the public values h and (r,s).
 
@@ -41,7 +38,9 @@ In particular, the entries of the integer vector t coincide with r &#xd7; s<sup>
 - (2b + 1) &#xd7; 2<sup>m + w - &#x2113; - 2</sup> - (r &#xd7; s<sup>-1</sup> &#xd7; 2<sup>m - j - &#x2113; - 1</sup>) mod q, where b denotes the sign of &#x03BA;<sub>j + &#x2113;</sub> (for more details [&#x5b;1&#x5d;](#ABFPY16)).
 
 
-### Solving the lattice
+## Solving the lattice
+
+In other words, the private key &#x3B1; recovery can be reduced to a Closest Vector Problem (CVP) instance of a given lattice. However, any CVP instance with input lattice B and vector u can be mapped into a Shortest Vector Problem (SVP) instance by looking for a short lattice basis vector in the dimensional-(d + 2) lattice B'.
 
 In both SVP and CVP instances, one proceeds by reducing the lattice with the LLL or BKZ procedures. But in practice, one proceeds by applying the method by Gama et al. [&#x5b;3&#x5d;](#GNR10), which can be summarized as follows:
 
