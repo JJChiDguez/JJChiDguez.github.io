@@ -24,10 +24,6 @@ Lattice-based cryptanalysis using timing attacks are commonly focused on determi
 
 and the integer vectors u = &#x28; 2W<sub>1</sub> &#xd7; &ucirc;<sub>1</sub> + q, &#x2026;, 2W<sub>1</sub> &#xd7; &ucirc;<sub>1</sub> + q, 0  &#x29;, z = &#x28; &#x03BB;<sub>1</sub>, &#x2026;, &#x03BB;<sub>d</sub>, &#x3B1; &#x29;, and y = &#x28; 2W<sub>1</sub> &#xd7; &#x03BD;<sub>1</sub>, &#x2026;, 2W<sub>d</sub> &#xd7; &#x03BD;<sub>d</sub>, &#x3B1; &#x29; satisfy zB - u = y with  W<sub>i</sub> = 2<sup>&#x2113;<sub>i</sub></sup>, &#x03BB;<sub>i</sub> &#x220A; &#x7b; -q, &#x2026;, q &#x7d;, and &#x03BD;<sub>i</sub> &#x220A; &#x7b; -(q - 1)/2, &#x2026;, (q - 1)/2 &#x7d; the signed modular reduction of &ucirc;<sub>i</sub> + q/(2W<sub>i</sub>) mod q.
 
-| &#x5b; B | 0 &#x5d; |
-| ---:     | :---     |
-| &#x5b; u | q &#x5d; |
-
 ## wNAF trace approach
 
 Let's focus on scalar point multiplications using wNAF scalar codifications. Assuming a window width equals w, two kwnon consecutive non-zero coefficients &#x03BA;<sub>j</sub> and &#x03BA;<sub>j + &#x2113;</sub> leads to an equation with &#x03B4; &#x3B1;-correlated bits. Each column of the lattice B (with same shape as given above), is determined by the pair (&#x03BA;<sub>j</sub>, &#x03BA;<sub>j + &#x2113;</sub>) along with the public values h and (r,s).
@@ -41,6 +37,10 @@ In particular, the entries of the integer vector t coincide with r &#xd7; s<sup>
 ## Solving the lattice
 
 In other words, the private key &#x3B1; recovery can be reduced to a Closest Vector Problem (CVP) instance of a given lattice. However, any CVP instance with input lattice B and vector u can be mapped into a Shortest Vector Problem (SVP) instance by looking for a short lattice basis vector in the dimensional-(d + 2) lattice B'.
+
+| &#x5b; B | 0 &#x5d; |
+| ---:     | :---     |
+| &#x5b; u | q &#x5d; |
 
 In both SVP and CVP instances, one proceeds by reducing the lattice with the LLL or BKZ procedures. But in practice, one proceeds by applying the method by Gama et al. [&#x5b;3&#x5d;](#GNR10), which can be summarized as follows:
 
