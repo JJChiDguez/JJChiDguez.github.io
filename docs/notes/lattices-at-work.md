@@ -36,7 +36,7 @@ In particular, the entries of the integer vector t coincide with r &#xd7; s<sup>
 
 ## Solving the lattice
 
-In other words, the private key &#x3B1; recovery can be reduced to a Closest Vector Problem (CVP) instance of a given lattice. However, any CVP instance with input lattice B and vector u can be mapped into a Shortest Vector Problem (SVP) instance by looking for a short lattice basis vector in the dimensional-(d + 2) lattice B'
+In summary, the private key recovery can be reduced to a Closest Vector Problem (CVP) instance of a given lattice. However, any CVP instance with input lattice B and vector u can be mapped into a Shortest Vector Problem (SVP) instance by looking for a short lattice basis vector in the dimensional-(d + 2) lattice B'
 
 | &#x5b; B | 0 &#x5d; |
 | ---:     | :---     |
