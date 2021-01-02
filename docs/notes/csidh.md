@@ -10,7 +10,7 @@ In 2018, Castryck, Lange, Martindale, Panny, and Renes proposed the CSIDH protoc
 
 The most demanding computational task of CSIDH is evaluating its class group action, whose cost is dominated by performing a number of degree-&#x2113; isogeny constructions/evaluations [^1].
 
-Let E &#x2f; F<sub>p</sub> : By<sup>2</sup> = x<sup>3</sup> + Ax<sup>2</sup> + x be a supersingular elliptic curve with (p + 1) rational points, and m &#x220A; Z. Then, B-SIDH can be summarized as follows: 
+Let E &#x2f; F<sub>p</sub> : By<sup>2</sup> = x<sup>3</sup> + Ax<sup>2</sup> + x be a supersingular elliptic curve with (p + 1) rational points, and m &#x220A; Z. Then, CSIDH can be summarized as follows: 
 
 ```mermaid
 graph TD
