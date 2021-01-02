@@ -11,10 +11,12 @@ Each of the following items contain an introductory overview of their correspond
 
 * Isogeny-based cryptography:
 	1. [B-SIDH, the twist-agnostic SIDH protocol](notes/bsidh.md);
+<!--
 	1. [CSIDH, the Commutative SIDH protocol](notes.md) 
 	<br><label for="file">TBA:</label><progress id="file" value="30" max="100"> 30% </progress>;
 	1. [The Supersingular Isogeny Diffie-Hellman protocol](notes.md) 
 	<br><label for="file">TBA:</label><progress id="file" value="5" max="100"> 5% </progress>;
+-->
 * Let's talk about _lattices_ on (EC)DSA
 	1. [Let's introduce a couple of Lattice-based cryptanalysises](notes/lattices-at-work.md)
 
