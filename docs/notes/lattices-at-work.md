@@ -13,7 +13,6 @@ where &#x3B1;, h, and k are the private key, the hash of the message to be signe
 
 The following lattice descriptions are based on the results presented in [&#x5b;4&#x5d;](#DEJAVU20), which is more focused on the practical Side-Channel Analysis. However, for a deep read, I suggest the paper by [Gabrielle De Micheli and Nadia Heninger](#MH20).
 
-
 ## Timing attacks
 
 Lattice-based cryptanalysis using timing attacks are commonly focused on determining a few bits from the _ephemeral_ key, which can be easily correlated with the private key by using the [above equation](#signature-rs). For instance, if the exponentiation or scalar point multiplication procedures have been implemented in _**non**_-constant-time, then by a simple timing analysis it is possible to find a sample of d signatures (r<sub>i</sub>, s<sub>i</sub>) with shorter-than-average _ephemeral_ key k<sub>i</sub> &#x3c; q / 2<sup>&#x2113;<sub>i</sub></sup> for some positive integer &#x2113;<sub>i</sub>. Moreover, the dimensional-(d+1) lattice
@@ -26,7 +25,7 @@ and the integer vectors u = &#x28; 2W<sub>1</sub> &#xd7; &ucirc;<sub>1</sub> + q
 
 ## wNAF trace approach
 
-Let's focus on scalar point multiplications using wNAF scalar codifications. Assuming a window width equals w, two kwnon consecutive non-zero coefficients &#x03BA;<sub>j</sub> and &#x03BA;<sub>j + &#x2113;</sub> leads to an equation with &#x03B4; &#x3B1;-correlated bits. Each column of the lattice B (with same shape as given above), is determined by the pair (&#x03BA;<sub>j</sub>, &#x03BA;<sub>j + &#x2113;</sub>) along with the public values h and (r,s).
+Let's focus on scalar point multiplications using wNAF scalar codifications. Assuming a window width equals w, two kwnon consecutive non-zero coefficients &#x03BA;<sub>j</sub> and &#x03BA;<sub>j + &#x2113;</sub> leads to an equation with &#x03B4; &#x3B1;-correlated bits. Each column of the lattice B (with same shape as given above), is determined by the pair (&#x03BA;<sub>j</sub>, &#x03BA;<sub>j + &#x2113;</sub>) along with the public values h and (r,s). For now on, let's denotes the bitlength of q by m.
 
 In particular, the entries of the integer vector t coincide with r &#xd7; s<sup>-1</sup> &#xd7; 2<sup>m - j - &#x2113; - 1</sup> mod q, W = 2<sup>&#x03B4;</sup> where &#x03B4; is equal to (&#x2113; - w) and (&#x2113; - w + 1) for the unsigned and signed approaches [^2], respectively. In both cases, the integer vector has the same shape like in the timing attack but  without the term q, and the entries of u are equal to
 
