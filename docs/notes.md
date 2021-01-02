@@ -16,7 +16,7 @@ Each of the following items contain an introductory overview of their correspond
 	1. [The Supersingular Isogeny Diffie-Hellman protocol](notes.md) 
 	<br><label for="file">TBA:</label><progress id="file" value="5" max="100"> 5% </progress>;
 * Let's talk about _lattices_ on (EC)DSA
-	1. [Let's introduce a couple of Lattice-based cryptanalysis](notes/lattices-at-work.md)
+	1. [Let's introduce a couple of Lattice-based cryptanalysises](notes/lattices-at-work.md)
 
 <!--<br><label for="file">TBA:</label><progress id="file" value="15" max="100"> 15% </progress>;-->
 <!--1. [CSIDH, the Commutative SIDH protocol](notes/csidh.md);-->

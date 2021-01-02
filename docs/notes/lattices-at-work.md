@@ -1,9 +1,9 @@
 ---
-title: Let's introduce a couple of Lattice-based cryptanalysis
+title: Let's introduce a couple of Lattice-based cryptanalysises
 filename: notes/lattices-at-work.md
 ---
 
-# Let's introduce a couple of Lattice-based cryptanalysis
+# Let's introduce a couple of Lattice-based cryptanalysises
 
 Go to the [Previous page](../notes.md)
 
