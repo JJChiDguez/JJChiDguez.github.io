@@ -25,9 +25,9 @@ and the integer vectors u = &#x28; 2W<sub>1</sub> &#xd7; &ucirc;<sub>1</sub> + q
 
 ## wNAF trace approach
 
-Let's focus on scalar point multiplications using wNAF scalar codifications. Assuming a window width equals w, two kwnon consecutive non-zero coefficients &#x03BA;<sub>j</sub> and &#x03BA;<sub>j + &#x2113;</sub> leads to an equation with &#x03B4; &#x3B1;-correlated bits. Each column of the lattice B (with same shape as given above), is determined by the pair (&#x03BA;<sub>j</sub>, &#x03BA;<sub>j + &#x2113;</sub>) along with the public values h and (r,s). For now on, let's denotes the bitlength of q by m.
+Let's focus on scalar point multiplications using wNAF scalar codifications. Assuming a window width equals w, two kwnon consecutive non-zero coefficients &#x03BA;<sub>j</sub> and &#x03BA;<sub>j + &#x2113;</sub> leads to an equation with &#x03B4; &#x3B1;-correlated bits. Each column of the lattice B (with same shape as given above), is determined by the pair (&#x03BA;<sub>j</sub>, &#x03BA;<sub>j + &#x2113;</sub>) along with the public values h and (r,s). 
 
-In particular, the entries of the integer vector t coincide with r &#xd7; s<sup>-1</sup> &#xd7; 2<sup>m - j - &#x2113; - 1</sup> mod q, W = 2<sup>&#x03B4;</sup> where &#x03B4; is equal to (&#x2113; - w) and (&#x2113; - w + 1) for the unsigned and signed approaches [^2], respectively. In both cases, the integer vector has the same shape like in the timing attack but  without the term q, and the entries of u are equal to
+In particular, the entries of the integer vector t coincide with r &#xd7; s<sup>-1</sup> &#xd7; 2<sup>m - j - &#x2113; - 1</sup> mod q, W = 2<sup>&#x03B4;</sup> where &#x03B4; is equal to (&#x2113; - w) and (&#x2113; - w + 1) for the unsigned and signed approaches [^2] [^3], respectively. In both cases, the integer vector has the same shape like in the timing attack but  without the term q, and the entries of u are equal to
 
 - 2<sup>m + w - &#x2113; - 1</sup> - (r &#xd7; s<sup>-1</sup> + 2<sup>j + w</sup> - 2<sup>j + &#x2113;</sup>) &#xd7; 2<sup>m - j - &#x2113; - 1</sup> mod q for the unsigned case (for more details [&#x5b;5&#x5d;](#PSY15)); or
 - (2b + 1) &#xd7; 2<sup>m + w - &#x2113; - 2</sup> - (r &#xd7; s<sup>-1</sup> &#xd7; 2<sup>m - j - &#x2113; - 1</sup>) mod q, where b denotes the sign of &#x03BA;<sub>j + &#x2113;</sub> (for more details [&#x5b;1&#x5d;](#ABFPY16)).
@@ -48,6 +48,7 @@ In both SVP and CVP instances, one proceeds by reducing the lattice with the LLL
 
 [^1]: In some papers, the integer k is named by _nonce_ but in my opinion, I prefer the term _ephemeral_ key.
 [^2]: The unsigned case refers when it is only possible to determine non-zero wNAF-coefficients, and thus the signed case allows to guess the sign of the wNAF-coefficients.
+[^3]: Here, m denotes the bitlength of q.
 
 ---
 
