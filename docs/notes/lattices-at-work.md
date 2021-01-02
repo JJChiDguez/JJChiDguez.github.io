@@ -27,11 +27,10 @@ and the integer vectors u = &#x28; 2W<sub>1</sub> &#xd7; &ucirc;<sub>1</sub> + q
 
 In other words, the private key &#x3B1; recovery can be reduced to a Closest Vector Problem (CVP) instance of a given lattice. However, any CVP instance with input lattice B and vector u can be mapped into a Shortest Vector Problem (SVP) instance by looking for a short lattice basis vector in the dimensional-(d + 2) lattice B'
 
-<center>
-[ &#x5b; B | 0 &#x5d; ]<br/>
- --- <br/>
-[ &#x5b; u | q &#x5d; ]
-</center>
+
+| &#x5b; B | 0 &#x5d; |
+| ---:     | :---     |
+| &#x5b; u | q &#x5d; |
 
 ### wNAF trace approach
 
