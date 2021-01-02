@@ -38,8 +38,8 @@ Let's focus on scalar point multiplications using wNAF scalar codifications. Ass
 
 In particular, the entries of the integer vector t coincide with r &#xd7; s<sup>-1</sup> &#xd7; 2<sup>m - j - &#x2113; - 1</sup> mod q, W = 2<sup>&#x03B4;</sup> where &#x03B4; is equal to (&#x2113; - w) and (&#x2113; - w + 1) for the unsigned and signed approaches [^2], respectively. In both cases, the integer vector has the same shape like in the timing attack but  without the term q, and the entries of u are equal to
 
-- 2<sup>m + w - &#x2113; - 1</sup> - (r &#xd7; s<sup>-1</sup> + 2<sup>j + w</sup> - 2<sup>j + &#x2113;</sup>) &#xd7; 2<sup>m - j - &#x2113; - 1</sup> mod q for the unsigned case (for more details [&#x5b;5&#x5d;](#PSY15); or
-- (2b + 1) &#xd7; 2<sup>m + w - &#x2113; - 2</sup> - (r &#xd7; s<sup>-1</sup> &#xd7; 2<sup>m - j - &#x2113; - 1</sup>) mod q, where b denotes the sign of &#x03BA;<sub>j + &#x2113;</sub> (for more details [&#x5b;1&#x5d;](#ABFPY16).
+- 2<sup>m + w - &#x2113; - 1</sup> - (r &#xd7; s<sup>-1</sup> + 2<sup>j + w</sup> - 2<sup>j + &#x2113;</sup>) &#xd7; 2<sup>m - j - &#x2113; - 1</sup> mod q for the unsigned case (for more details [&#x5b;5&#x5d;](#PSY15)); or
+- (2b + 1) &#xd7; 2<sup>m + w - &#x2113; - 2</sup> - (r &#xd7; s<sup>-1</sup> &#xd7; 2<sup>m - j - &#x2113; - 1</sup>) mod q, where b denotes the sign of &#x03BA;<sub>j + &#x2113;</sub> (for more details [&#x5b;1&#x5d;](#ABFPY16)).
 
 
 ### Solving the lattice
