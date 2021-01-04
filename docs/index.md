@@ -3,7 +3,7 @@ title: This is my webpage!
 filename: index.md
 --- 
 
-<h1 style="background-color:#ffbbbb">This is my webpage!</h1>
+# This is my webpage!
 
 I am a Postdoctoral researcher at [Tampere University, Finland](https://www.tuni.fi/en). I'm currently working on the (mathematical, and probabilistic) study of side-channel analysis applied to both existing and emerging cryptosystems. 
 
