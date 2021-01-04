@@ -5,6 +5,8 @@ filename: notes/lattices-at-work.md
 
 # Let's introduce a couple of Lattice-based cryptanalysises
 
+---
+
 Go to the [Previous page](../notes.md)
 
 In both **DSA** and **ECDSA** (the elliptic-curve **DSA**) procedures, the signature output is a pair (r,s) of integer numbers such that
