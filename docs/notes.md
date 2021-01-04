@@ -9,7 +9,7 @@ filename: notes.md
 
 Go to the [Home page](index.md)
 
-Each of the following items contain an introductory overview of their corresponded topic (for more analysis and study, I suggest to read the cited references).
+Each of the following items contains an introductory overview of their corresponded topic (for more analysis and study, I suggest to read the cited references).
 
 * Isogeny-based cryptography:
 	1. [B-SIDH, the twist-agnostic SIDH protocol](notes/bsidh.md);
