@@ -11,7 +11,7 @@ I have also an interest in the cryptanalysis and secure C-code implementations o
 
 I got a bachelor's degree in mathematics in 2013 at the [Faculty of Mathematics of the Autonomous University of Yucatan](https://www.matematicas.uady.mx/). I moved to computer sciences for the master's and Ph.D. degrees, both of them were coursed at the [Cinvestav - IPN](https://www.cs.cinvestav.mx/en).
 
-Maybe you want to take a look at  
+Maybe you want to take a look at <br> 
 : [<img alt="CV icon" src="images/icons/cv.svg" style="width:16px;height:16px;"> Curriculum Vitae](pdfs/CV-ChiDominguez.pdf);
 : [<img alt="Slides icon" src="images/icons/slides.svg" style="width:16px;height:16px;"> Slides from my talks](slides.md);
 : [<img alt="Publications icon" src="images/icons/publications.svg" style="width:16px;height:16px;"> Publications](publications.md);
@@ -20,7 +20,7 @@ Maybe you want to take a look at
 : [<img alt="PC member icon" src="images/icons/worldwide-earth-globe.svg" style="width:16px;height:16px;"> Conferences where I am or was a PC member](pcmember.md);
 : [<img alt="Repository icon" src="images/icons/package-box.svg" style="width:16px;height:16px;"> Collaboration in software repository projects](repositories.md).
 
-Additionally, my scientific network profiles are listed below
+Additionally, my scientific network profiles are listed below <br>
 : [<img alt="Google Scholar icon" src="images/icons/google-scholar.svg" style="width:16px;height:16px;"> Google Scholar](https://scholar.google.com/citations?user=a3bmRrwAAAAJ);
 : [<img alt="ResearchGate icon" src="images/icons/researchgate.svg" style="width:16px;height:16px;"> ResearchGate](https://www.researchgate.net/profile/Jesus_Javier_Chi-Dominguez);
 : [<img alt="LinkedIn icon" src="images/icons/linkedin.svg" style="width:16px;height:16px;"> LinkedIn](https://www.linkedin.com/in/jesus-javier-chi-dominguez-1b4282108/);
