@@ -5,8 +5,6 @@ filename: slides.md
 
 # Slides from my talks
 
----
-
 Go to the [Home page](index.md)
 
 1. Elliptic curves in classical and post-quantum cryptography (Doctoral thesis defense) [&#x1f4be;](pdfs/PhD-defense.pdf)

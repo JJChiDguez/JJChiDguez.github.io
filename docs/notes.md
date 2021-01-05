@@ -5,8 +5,6 @@ filename: notes.md
 
 # Some notes about topics of my interest
 
----
-
 Go to the [Home page](index.md)
 
 Each of the following items contains an introductory overview of their corresponded topic (for more analysis and study, I suggest to read the cited references).

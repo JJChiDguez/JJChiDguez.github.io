@@ -5,8 +5,6 @@ filename: preprints.md
 
 # Preprints
 
----
-
 Go to the [Home page](index.md)
 
 1. Jorge Ch&aacute;vez-Saab and Jes&uacute;s-Javier Chi-Dom&iacute;nguez and Samuel Jaques and Francisco Rodr&iacute;guez-Henr&iacute;quez: **The SQALE of CSIDH: Square-root v&eacute;lu Quantum-resistant isogeny Action with Low Exponents**. IACR Cryptol. ePrint Arch. 2020: 1520 (2020) [&#128279;](https://eprint.iacr.org/2020/1520);
