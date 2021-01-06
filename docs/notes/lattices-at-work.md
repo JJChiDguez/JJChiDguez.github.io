@@ -53,10 +53,10 @@ In both SVP and CVP instances, one proceeds by reducing the lattice with the LLL
 ---
 
 **References**
-: <a id="ABFPY16"></a> [1] T. Allan, B. Brumley, K. Falkner, J. van de Pol, Y. Yarom, **Amplifying side channels through performance degradation**, _Annual Computer Security Applications Conference - ACSAC 2016_, ACM (2016), 422-435 [&#128279;](https://dl.acm.org/doi/10.1145/2991079.2991084);
+: <a id="ABFPY16"></a> [1] T. Allan, B. B. Brumley, K. Falkner, J. van de Pol, Y. Yarom, **Amplifying side channels through performance degradation**, _Annual Computer Security Applications Conference - ACSAC 2016_, ACM (2016), 422-435 [&#128279;](https://dl.acm.org/doi/10.1145/2991079.2991084);
 : <a id="MH20"></a> [2] G. De Micheli and N. Heninger, **Recovering cryptographic keys from partial information, by example**, IACR Cryptol. ePrint Arch. 2020: 1506 (2020) [&#128279;](https://eprint.iacr.org/2020/1506);
-: <a id="GNR10"></a> [3] N. Gama, P. Nguyen, O. Regev, **Lattice Enumeration Using Extreme Pruning**, _Advances in Cryptology - EUROCRYPT 2010_, LNCS 6110, 257-278, 2010 [&#128279;](https://link.springer.com/chapter/10.1007%2F978-3-642-13190-5_13);
-: <a id="DEJAVU20"></a> [4] S. ul Hassan, I. Gridin, I. Delgado-Lozano, C. Pereida-Garc&iacute;a, J.-J. Chi-Dom&iacute;nguez, A. Cabrera Aldaya, B. Brumley, **D&eacute;j&agrave; Vu: Side-Channel Analysis of Mozilla's NSS**, Conference on Computer and Communications Security - CCS 2020, ACM (2020), 1887-1902 [&#128279;](https://doi.org/10.1145/3372297.3421761);
-: <a id="PSY15"></a> [5] J. van de Pol, N. Smart, Y. Yarom, **Just a Little Bit More**, _Topics in Cryptology - CT-RSA 2015_, LNCS 9048, 3-21, 2015 [&#128279;](https://doi.org/10.1007/978-3-319-16715-2_1).
+: <a id="GNR10"></a> [3] N. Gama, P. Q. Nguyen, O. Regev, **Lattice Enumeration Using Extreme Pruning**, _Advances in Cryptology - EUROCRYPT 2010_, LNCS 6110, 257-278, 2010 [&#128279;](https://link.springer.com/chapter/10.1007%2F978-3-642-13190-5_13);
+: <a id="DEJAVU20"></a> [4] S. ul Hassan, I. Gridin, I. M. Delgado-Lozano, C. Pereida-Garc&iacute;a, J.-J. Chi-Dom&iacute;nguez, A. Cabrera Aldaya, B. B. Brumley, **D&eacute;j&agrave; Vu: Side-Channel Analysis of Mozilla's NSS**, Conference on Computer and Communications Security - CCS 2020, ACM (2020), 1887-1902 [&#128279;](https://doi.org/10.1145/3372297.3421761);
+: <a id="PSY15"></a> [5] J. van de Pol, N. P. Smart, Y. Yarom, **Just a Little Bit More**, _Topics in Cryptology - CT-RSA 2015_, LNCS 9048, 3-21, 2015 [&#128279;](https://doi.org/10.1007/978-3-319-16715-2_1).
 
 ---
