@@ -36,6 +36,6 @@ Phone <img alt="Flag of Mexico icon" src="images/icons/flag-Mexico.svg" style="w
 
 ---
 
-Additionally, I am used to playing guitar and watching Anime (Japanese cartoons) in my free time; additionally, I am starting to playing the violin.
+On the other hand, I am used to playing guitar and watching Anime (Japanese cartoons) in my free time; additionally, I am starting to playing the violin.
 
 _Gracias_ for taking your time in reading my short Bio!
