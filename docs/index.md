@@ -12,13 +12,13 @@ I have also an interest in the cryptanalysis and secure C-code implementations o
 I got a bachelor's degree in mathematics in 2013 at the [Faculty of Mathematics of the Autonomous University of Yucatan](https://www.matematicas.uady.mx/). I moved to computer sciences for the master's and Ph.D. degrees, both of them were coursed at the [Cinvestav - IPN](https://www.cs.cinvestav.mx/en).
 
 Maybe you want to take a look at  
-: [<img alt="CV icon" src="images/icons/cv.svg" style="width:16px;height:16px;"> Curriculum Vitae](pdfs/CV-ChiDominguez.pdf);
-: [<img alt="Slides icon" src="images/icons/slides.svg" style="width:16px;height:16px;"> Slides from my talks](slides.md);
-: [<img alt="Publications icon" src="images/icons/publications.svg" style="width:16px;height:16px;"> Publications](publications.md);
-: [<img alt="Preprints icon" src="images/icons/preprints.svg" style="width:16px;height:16px;"> Preprints](preprints.md);
-: [<img alt="Notes icon" src="images/icons/notes.svg" style="width:16px;height:16px;"> Some notes about topics of my interest](notes.md);
-: [<img alt="PC member icon" src="images/icons/worldwide-earth-globe.svg" style="width:16px;height:16px;"> Conferences where I am or was a PC member](pcmember.md);
-: [<img alt="Repository icon" src="images/icons/package-box.svg" style="width:16px;height:16px;"> Collaboration in software repository projects](repositories.md).
+- [<img alt="CV icon" src="images/icons/cv.svg" style="width:16px;height:16px;"> Curriculum Vitae](pdfs/CV-ChiDominguez.pdf);
+- [<img alt="Slides icon" src="images/icons/slides.svg" style="width:16px;height:16px;"> Slides from my talks](slides.md);
+- [<img alt="Publications icon" src="images/icons/publications.svg" style="width:16px;height:16px;"> Publications](publications.md);
+- [<img alt="Preprints icon" src="images/icons/preprints.svg" style="width:16px;height:16px;"> Preprints](preprints.md);
+- [<img alt="Notes icon" src="images/icons/notes.svg" style="width:16px;height:16px;"> Some notes about topics of my interest](notes.md);
+- [<img alt="PC member icon" src="images/icons/worldwide-earth-globe.svg" style="width:16px;height:16px;"> Conferences where I am or was a PC member](pcmember.md);
+- [<img alt="Repository icon" src="images/icons/package-box.svg" style="width:16px;height:16px;"> Collaboration in software repository projects](repositories.md).
 
 <div align="right">
 <a href="https://scholar.google.com/citations?user=a3bmRrwAAAAJ"><img alt="Google Scholar icon" src="images/icons/google-scholar.svg" style="width:16px;height:16px;"></a> 
