@@ -31,11 +31,11 @@ Additionally, my scientific network profiles are listed below
 <a href="https://www.researchgate.net/profile/Jesus_Javier_Chi-Dominguez"><img alt="ResearchGate icon" src="images/icons/researchgate.svg" style="width:16px;height:16px;"></a> 
 <a href="https://www.linkedin.com/in/jesus-javier-chi-dominguez-1b4282108/"><img alt="LinkedIn icon" src="images/icons/linkedin.svg" style="width:16px;height:16px;"></a>
 <br>
-E-mail &#x1F4E7;: chidoys&#x40;gmail.com
+E-mail <img alt="E-mail icon" src="images/icons/email.svg" style="width:16px;height:16px;">: chidoys&#x40;gmail.com
 <br>
-Phone &#127467;&#127470; &#128241;: +358 41 7593821 
+Phone <img alt="Flag of Finland icon" src="images/icons/flag-Finland.svg" style="width:16px;height:16px;"> &#128241;: +358 41 7593821 
 <br>
-Phone &#127474;&#127485; <!--&#128241;--><img alt="WhatsApp icon" src="images/icons/WhatsApp.svg" style="width:12px;height:12px;">: +52 1 55 3576 1747
+Phone <img alt="Flag of Mexico icon" src="images/icons/flag-Mexico.svg" style="width:16px;height:16px;"> <!--&#128241;--><img alt="WhatsApp icon" src="images/icons/WhatsApp.svg" style="width:12px;height:12px;">: +52 1 55 3576 1747
 </div>
 
 ---
