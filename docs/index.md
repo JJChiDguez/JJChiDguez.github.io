@@ -19,11 +19,6 @@ Maybe you want to take a look at
 - [<img alt="Notes icon" src="images/icons/notes.svg" style="width:16px;height:16px;"> Some notes about topics of my interest](notes.md);
 - [<img alt="PC member icon" src="images/icons/worldwide-earth-globe.svg" style="width:16px;height:16px;"> Conferences where I am or was a PC member](pcmember.md);
 - [<img alt="Repository icon" src="images/icons/package-box.svg" style="width:16px;height:16px;"> Collaboration in software repository projects](repositories.md).
-
-Additionally, my scientific network profiles are listed below
-- [<img alt="Google Scholar icon" src="images/icons/google-scholar.svg" style="width:16px;height:16px;"> Google Scholar](https://scholar.google.com/citations?user=a3bmRrwAAAAJ);
-- [<img alt="ResearchGate icon" src="images/icons/researchgate.svg" style="width:16px;height:16px;"> ResearchGate](https://www.researchgate.net/profile/Jesus_Javier_Chi-Dominguez);
-- [<img alt="LinkedIn icon" src="images/icons/linkedin.svg" style="width:16px;height:16px;"> LinkedIn](https://www.linkedin.com/in/jesus-javier-chi-dominguez-1b4282108/);
 - [<img alt="ORCID id icon" src="images/icons/orcid-id.svg" style="width:16px;height:16px;"> https://orcid.org/0000-0002-9753-7263](https://orcid.org/0000-0002-9753-7263).
 
 <div align="right">
@@ -33,7 +28,7 @@ Additionally, my scientific network profiles are listed below
 <br>
 E-mail <img alt="E-mail icon" src="images/icons/email.svg" style="width:16px;height:16px;">: chidoys&#x40;gmail.com
 <br>
-Phone <img alt="Flag of Finland icon" src="images/icons/flag-Finland.svg" style="width:16px;height:16px;"> &#128241;: +358 41 7593821 
+Phone <img alt="Flag of Finland icon" src="images/icons/flag-Finland.svg" style="width:16px;height:16px;"> <img alt="Mobile icon" src="images/icons/mobile.svg" style="width:16px;height:16px;">: +358 41 7593821 
 <br>
 Phone <img alt="Flag of Mexico icon" src="images/icons/flag-Mexico.svg" style="width:16px;height:16px;"> <!--&#128241;--><img alt="WhatsApp icon" src="images/icons/WhatsApp.svg" style="width:16px;height:16px;">: +52 1 55 3576 1747
 </div>
