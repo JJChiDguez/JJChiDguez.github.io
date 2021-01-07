@@ -27,7 +27,10 @@ Additionally, my scientific network profiles are listed below
 - [<img alt="ORCID id icon" src="images/icons/orcid-id.svg" style="width:16px;height:16px;"> https://orcid.org/0000-0002-9753-7263](https://orcid.org/0000-0002-9753-7263).
 
 <div align="right">
-<a href="https://scholar.google.com/citations?user=a3bmRrwAAAAJ"><img alt="Google Scholar icon" src="images/icons/google-scholar.svg" style="width:16px;height:16px;"></a>
+<a href="https://scholar.google.com/citations?user=a3bmRrwAAAAJ"><img alt="Google Scholar icon" src="images/icons/google-scholar.svg" style="width:16px;height:16px;"></a> 
+<a href="https://www.researchgate.net/profile/Jesus_Javier_Chi-Dominguez"><img alt="ResearchGate icon" src="images/icons/researchgate.svg" style="width:16px;height:16px;"></a> 
+<a href="https://www.linkedin.com/in/jesus-javier-chi-dominguez-1b4282108/"><img alt="LinkedIn icon" src="images/icons/linkedin.svg" style="width:16px;height:16px;"></a>
+<br>
 E-mail &#x1F4E7;: chidoys&#x40;gmail.com
 <br>
 Phone &#127467;&#127470; &#128241;: +358 41 7593821 
