@@ -24,7 +24,7 @@ Maybe you want to take a look at
 <a href="https://twitter.com/Jebus_dguez"><img alt="Twitter icon" src="images/icons/twitter.svg" style="width:16px;height:16px;"></a> 
 <a href="https://scholar.google.com/citations?user=a3bmRrwAAAAJ"><img alt="Google Scholar icon" src="images/icons/google-scholar.svg" style="width:16px;height:16px;"></a> 
 <a href="https://www.linkedin.com/in/jesus-javier-chi-dominguez-1b4282108/"><img alt="LinkedIn icon" src="images/icons/linkedin.svg" style="width:16px;height:16px;"></a> 
-<a href="https://www.researchgate.net/profile/Jesus_Javier_Chi-Dominguez"><img alt="ResearchGate icon" src="images/icons/researchgate.svg" style="width:16px;height:16px;"></a> 
+<a href="https://www.researchgate.net/profile/Jesus_Javier_Chi-Dominguez"><img alt="ResearchGate icon" src="images/icons/researchgate.png" style="width:16px;height:16px;"></a> 
 <a href="https://orcid.org/0000-0002-9753-7263"><img alt="ORCID id icon" src="images/icons/orcid-id.svg" style="width:16px;height:16px;"></a>
 <br>
 E-mail <img alt="E-mail icon" src="images/icons/email.svg" style="width:16px;height:16px;">: chidoys&#x40;gmail.com
