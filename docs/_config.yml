@@ -1,4 +1,4 @@
-theme: jekyll-theme-minimal
-title: Hello there!
-description: Jes&uacute;s-Javier Chi-Dom&iacute;nguez
-logo: "images/hereiam.jpg"
+title: Jes&uacute;s-Javier Chi-Dom&iacute;nguez
+sass:
+  sass_dir: css
+  style:    compressed

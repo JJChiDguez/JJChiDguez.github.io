@@ -1,11 +1,10 @@
 ---
+layout: default
 title: Publications
 filename: publications.md
 --- 
 
 # Publications
-
-Go to the [Home page](index.md)
 
 ### Conferences
 

@@ -1,18 +1,18 @@
 ---
-title: Some notes about topics of my interest
+layout: default
+title: Drafts &#38; Notes
 filename: notes.md
 --- 
 
-# Some notes about topics of my interest
-
-Go to the [Home page](index.md)
+# Drafts &#38; Notes
+## Some topics of my interest
 
 Each of the following items contains an introductory overview of their corresponded topic (for more analysis and study, I suggest to read the cited references).
 
 * Isogeny-based cryptography:
-	1. [B-SIDH, the twist-agnostic SIDH protocol](notes/bsidh.md);
+	1. [B-SIDH, the twist-agnostic SIDH protocol](notes/bsidh.html);
 * Let's talk about _lattices_ on (EC)DSA
-	1. [Let's introduce a couple of Lattice-based cryptanalysises](notes/lattices-at-work.md)
+	1. [Let's introduce a couple of Lattice-based cryptanalyses](notes/lattices-at-work.html)
 
 <!--
 	1. [CSIDH, the Commutative SIDH protocol](notes.md) 
