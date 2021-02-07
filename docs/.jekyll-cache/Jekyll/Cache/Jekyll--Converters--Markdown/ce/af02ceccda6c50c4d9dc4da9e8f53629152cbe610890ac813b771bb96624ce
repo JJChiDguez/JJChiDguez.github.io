@@ -1,0 +1,42 @@
+I"�<h1 id="csidh-the-commutative-sidh-protocol">CSIDH, the Commutative SIDH protocol</h1>
+
+<p>In 2018, Castryck, Lange, Martindale, Panny, and Renes proposed the CSIDH protocol <a href="#CLMPR18">[1]</a>, which can be viewed as a reinterpretation of Couveignes <a href="#CouveignesXX">[3]</a> and Rostovtsev-Stolbunov <a href="#BDLS20">[2</a>, <a href="#ACDRH20">1]</a> schemes but this time using supersingular curves defined over a prime field.</p>
+
+<p>The most demanding computational task of CSIDH is evaluating its class group action, whose cost is dominated by performing a number of degree-ℓ isogeny constructions/evaluations <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup>.</p>
+
+<p>Let E / F<sub>p</sub> : By<sup>2</sup> = x<sup>3</sup> + Ax<sup>2</sup> + x be a supersingular elliptic curve with (p + 1) rational points, and m ∊ Z. Then, CSIDH can be summarized as follows:</p>
+
+<pre><code class="language-mermaid">graph TD
+    START(Start) -- "To process the i-th entry" --&gt; IF1{"Has m&lt;sub&gt;i&lt;/sub&gt; degree-ℓ&lt;sub&gt;i&lt;/sub&gt;&lt;br/&gt;isogeny constructions&lt;br/&gt;been permformed?"};
+    subgraph " "
+    IF1 -- No --&gt; IF2{"e&lt;sub&gt;i&lt;/sub&gt; == 0?"};
+    IF2 -- Yes --&gt; WD[/"To perform a&lt;br/&gt;dummy-isogeny&lt;br/&gt;construction"/];
+    IF2 -- No --&gt; DF[/"To perform a&lt;br/&gt;degree-ℓ isogeny&lt;br/&gt;evaluation"/];
+    DF --&gt; DEC["e&lt;sub&gt;i&lt;/sub&gt; -= 1"];
+    WD --&gt; FIN{"Are there missing&lt;br/&gt;isogeny constructions?"}
+    DEC --&gt;FIN;
+    FIN -- Yes --&gt; IF1;
+    end
+    FIN -- No --&gt; END(End);
+   
+</code></pre>
+
+<hr />
+
+<dl>
+  <dt><strong>References</strong></dt>
+  <dd><a id="ACDRH20"></a> [1] G. Adj, J.-J. Chi-Domínguez, F. Rodríguez-Henríquez, <strong>On new Vélu’s formulae and their applications to CSIDH and B-SIDH constant-time implementations</strong>. <em>IACR Cryptol. ePrint Arch.</em>, 2020: 1109 (2020) <a href="https://eprint.iacr.org/2020/1109">🔗</a>.</dd>
+  <dd><a id="BDLS20"></a> [2] D. J. Bernstein, L. De Feo, A. Leroux, B. Smith, <strong>Faster computation of isogenies of large prime degree</strong>. <em>IACR Cryptol. ePrint Arch.</em>, 2020: 341 (2020) <a href="https://eprint.iacr.org/2020/341">🔗</a>.</dd>
+  <dd><a id="CLMPR18"></a> [3] W. Castryck, T. Lange, C. Martindale, L. Panny, J. Renes, ** CSIDH: An Efficient Post-Quantum Commutative Group Action**. <em>Advances in Cryptology - ASIACRYPT 2018</em>, LNCS 11274, 395-427, 2018 <a href="https://doi.org/10.1007/978-3-030-03332-3_15">🔗</a>.</dd>
+  <dd><a id="CH17"></a> [4] C. Costello, Hüseyin Hisil, <strong>A Simple and Compact Algorithm for SIDH with Arbitrary Degree Isogenies</strong>. <em>Advances in Cryptology - ASIACRYPT 2017</em>, LNCS 10625, 303-329, 2017 <a href="https://doi.org/10.1007/978-3-319-70697-9_11">🔗</a>.</dd>
+</dl>
+
+<hr />
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>You can deep into the isogeny constructions/evaluations on Montgomery curves by reading <a href="#CH17">[4]</a> and <a href="#BDLS20">[2</a>, <a href="#ACDRH20">1]</a> for the traditional and the new sqrt Vélu formulæ, respectively. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET
