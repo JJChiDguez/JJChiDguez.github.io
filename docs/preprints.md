@@ -6,6 +6,7 @@ filename: preprints.md
 
 # Preprints
 
+1. Jes&uacute;s-Javier Chi-Dom&iacute;nguez, and Krijn Reijnders: **Don't forget the constant-time in CSURF**. IACR Cryptol. ePrint Arch. 2021: 259 (2021) [&#128279;](https://eprint.iacr.org/2021/259);
 1. Jorge Ch&aacute;vez-Saab, Jes&uacute;s-Javier Chi-Dom&iacute;nguez, Samuel Jaques, and Francisco Rodr&iacute;guez-Henr&iacute;quez: **The SQALE of CSIDH: Square-root v&eacute;lu Quantum-resistant isogeny Action with Low Exponents**. IACR Cryptol. ePrint Arch. 2020: 1520 (2020) [&#128279;](https://eprint.iacr.org/2020/1520);
 1. Gora Adj, Jes&uacute;s-Javier Chi-Dom&iacute;nguez, and Francisco Rodr&iacute;guez-Henr&iacute;quez: **On new V&eacute;lu's formulae and their applications to CSIDH and B-SIDH constant-time implementations**. IACR Cryptol. ePrint Arch. 2020: 1109 (2020) [&#128279;](https://eprint.iacr.org/2020/1109);
 1. Dmitry Belyavsky, Billy Bob Brumley, Jes&uacute;s-Javier Chi-Dom&iacute;nguez, Luis Rivera-Zamarripa, and Igor Ustinov: **Set It and Forget It! Turnkey ECC for Instant Integration**. CoRR abs/2007.11481 (2020) [&#128279;](https://arxiv.org/abs/2007.11481);
