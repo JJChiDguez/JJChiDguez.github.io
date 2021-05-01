@@ -1,8 +1,9 @@
-I"�<h1 id="csidh-the-commutative-sidh-protocol">CSIDH, the Commutative SIDH protocol</h1>
+I"
+<h1 id="csidh-the-commutative-sidh-protocol">CSIDH, the Commutative SIDH protocol</h1>
 
 <p>In 2018, Castryck, Lange, Martindale, Panny, and Renes proposed the CSIDH protocol <a href="#CLMPR18">[1]</a>, which can be viewed as a reinterpretation of Couveignes <a href="#CouveignesXX">[3]</a> and Rostovtsev-Stolbunov <a href="#BDLS20">[2</a>, <a href="#ACDRH20">1]</a> schemes but this time using supersingular curves defined over a prime field.</p>
 
-<p>The most demanding computational task of CSIDH is evaluating its class group action, whose cost is dominated by performing a number of degree-ℓ isogeny constructions/evaluations <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup>.</p>
+<p>The most demanding computational task of CSIDH is evaluating its class group action, whose cost is dominated by performing a number of degree-ℓ isogeny constructions/evaluations <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>.</p>
 
 <p>Let E / F<sub>p</sub> : By<sup>2</sup> = x<sup>3</sup> + Ax<sup>2</sup> + x be a supersingular elliptic curve with (p + 1) rational points, and m ∊ Z. Then, CSIDH can be summarized as follows:</p>
 

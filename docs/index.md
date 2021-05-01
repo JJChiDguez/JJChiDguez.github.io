@@ -8,13 +8,17 @@ filename: index.md
 
 <p align="center"><img src="figures/hereiam.jpg" ><h4 align="center" class="text-muted">Jes&uacute;s-Javier Chi-Dom&iacute;nguez</h4></p>
 
-I am a Postdoctoral researcher at [Tampere University, Finland](https://www.tuni.fi/en). I'm currently working on the (mathematical, and probabilistic) study of side-channel analysis applied to both existing and emerging cryptosystems. 
+I am working as _Senior Cryptographer Post Quantum_ at the [Technology Innovation Institute (**TII**)](https://www.tii.ae/), Abu Dhabi, United Arab Emirates.
 
-I have also an interest in the cryptanalysis and secure C-code implementations of elliptic-curve and isogeny-based cryptographic protocols.
+My research is currently focused on the cryptanalysis and constant-time C-code implementations of elliptic-curve and isogeny-based cryptographic protocols,
+where constant-time means its running-time is independent (or it does depend on randomness non-correlated) from its input.
 
-I got a bachelor's degree in mathematics in 2013 at the [Faculty of Mathematics of the Autonomous University of Yucatan](https://www.matematicas.uady.mx/). I moved to computer sciences for the master's and Ph.D. degrees, both of them were coursed at the [Cinvestav - IPN](https://www.cs.cinvestav.mx/en).
+I got a bachelor's degree in mathematics in 2013 at the [Faculty of Mathematics of the Autonomous University of Yucatan](https://www.matematicas.uady.mx/).
+I moved to computer sciences for the master's and Ph.D. degrees, both of them were coursed at the [Cinvestav - IPN](https://www.cs.cinvestav.mx/en).
+I did postdoctoral research stay at [Tampere University, Finland](https://www.tuni.fi/en) where I worked on the (mathematical, and probabilistic) study of
+side-channel analysis applied to both existing and emerging cryptosystems.
 
-Maybe you want to take a look at  
+Maybe you want to take a look at
 - [<img alt="CV icon" src="figures/icons/cv.svg" style="width:16px;height:16px;"> Curriculum Vitae](pdfs/CV-ChiDominguez.pdf);
 - [<img alt="Slides icon" src="figures/icons/slides.svg" style="width:16px;height:16px;"> Slides from my talks](slides.html);
 - [<img alt="Publications icon" src="figures/icons/publications.svg" style="width:16px;height:16px;"> Publications](publications.html);
@@ -22,6 +26,10 @@ Maybe you want to take a look at
 - [<img alt="Notes icon" src="figures/icons/notes.svg" style="width:16px;height:16px;"> Some notes about topics of my interest](notes.html);
 - [<img alt="PC member icon" src="figures/icons/worldwide-earth-globe.svg" style="width:16px;height:16px;"> Conferences where I am or was a PC member](pcmember.html);
 - [<img alt="Repository icon" src="figures/icons/package-box.svg" style="width:16px;height:16px;"> Collaboration in software repository projects](repositories.html).
+
+<!--
+<a href="https://github.com/JJChiDguez/sibc"><img align=left alt="sibc logo" src="figures/logos/sibc-logo.png" style="width:260px;height:162px;"></a>
+-->
 
 <div align="right">
 <a href="https://github.com/JJChiDguez"><img alt="GitHub icon" src="figures/icons/github.svg" style="width:16px;height:16px;"></a>
@@ -37,6 +45,8 @@ Phone <img alt="Flag of Finland icon" src="figures/icons/flag-Finland.svg" style
 <br>
 Phone <img alt="Flag of Mexico icon" src="figures/icons/flag-Mexico.svg" style="width:16px;height:12px;"> <!--&#128241;--><img alt="WhatsApp icon" src="figures/icons/whatsapp.svg" style="width:16px;height:16px;">: +52 1 55 3576 1747
 </div>
+
+<!--<br>-->
 
 ---
 

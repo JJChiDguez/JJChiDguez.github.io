@@ -1,9 +1,0 @@
-I"�<h1 id="collaboration-in-software-repository-projects">Collaboration in software repository projects</h1>
-
-<p>Most of my software contributions can be accessed on <a href="https://github.com/JJChiDguez">My <strong>GitHub</strong> Profile</a>. But there is a couple of external repositories where I have collaborated. I list them:</p>
-
-<ol>
-  <li><strong>Constant-time CSURF and CRADS</strong> <a href="https://github.com/Krijn-math/Constant-time-CSURF-CRADS">🔗</a>: a constant-time Python-code implementation of CSURF and the radical isogeny procedures;</li>
-  <li><strong>ECCKiila</strong> <a href="https://gitlab.com/nisec/ecckiila">🔗</a>: a dynamic ECC SW stacks generator w/good security properties and fast performance, which includes rigging for downstream projects such as <a href="https://github.com/openssl/openssl/">OpenSSL</a>, <a href="https://github.com/gost-engine/engine">gost-engine</a>, <a href="https://hg.mozilla.org/projects/nss/">NSS</a>, etc;</li>
-</ol>
-:ET

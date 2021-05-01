@@ -27,7 +27,7 @@
 
 <p>In both <strong>DSA</strong> and <strong>ECDSA</strong> (the elliptic-curve <strong>DSA</strong>) procedures, the signature output is a pair (r,s) of integer numbers such that</p>
 <center><a id="signature-rs"></a> s &#xd7; k &#x2261; &#x28; h + &#x3B1; &#xd7; r &#x29; mod q,</center>
-<p>where α, h, and k are the private key, the hash of the message to be signed, and the <em>ephemeral</em> key <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup>, respectively. In particular, r is either the output of the exponentiation (<strong>DSA</strong> case: g<sup>k</sup>) or the scalar point multiplication (<strong>ECDSA</strong> case: [k]P) procedure.</p>
+<p>where α, h, and k are the private key, the hash of the message to be signed, and the <em>ephemeral</em> key <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>, respectively. In particular, r is either the output of the exponentiation (<strong>DSA</strong> case: g<sup>k</sup>) or the scalar point multiplication (<strong>ECDSA</strong> case: [k]P) procedure.</p>
 
 <p>The following lattice descriptions are based on the results presented in <a href="#DEJAVU20">[4]</a>, which is more focused on the practical Side-Channel Analysis. However, for a deep read, I suggest the paper by <a href="#MH20">Gabrielle De Micheli and Nadia Heninger</a>.</p>
 
@@ -64,7 +64,7 @@
 
 <p>Let’s focus on scalar point multiplications using wNAF scalar codifications. Assuming a window width equals w, two kwnon consecutive non-zero coefficients κ<sub>j</sub> and κ<sub>j + ℓ</sub> leads to an equation with δ α-correlated bits. Each column of the lattice B (with same shape as given above), is determined by the pair (κ<sub>j</sub>, κ<sub>j + ℓ</sub>) along with the public values h and (r,s).</p>
 
-<p>In particular, the entries of the integer vector t coincide with r × s<sup>-1</sup> × 2<sup>m - j - ℓ - 1</sup> mod q, W = 2<sup>δ</sup> where δ is equal to (ℓ - w) and (ℓ - w + 1) for the unsigned and signed approaches <sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote">2</a></sup> <sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote">3</a></sup>, respectively. In both cases, the integer vector has the same shape like in the timing attack but  without the term q, and the entries of u are equal to</p>
+<p>In particular, the entries of the integer vector t coincide with r × s<sup>-1</sup> × 2<sup>m - j - ℓ - 1</sup> mod q, W = 2<sup>δ</sup> where δ is equal to (ℓ - w) and (ℓ - w + 1) for the unsigned and signed approaches <sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup> <sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup>, respectively. In both cases, the integer vector has the same shape like in the timing attack but  without the term q, and the entries of u are equal to</p>
 
 <ul>
   <li>2<sup>m + w - ℓ - 1</sup> - (r × s<sup>-1</sup> + 2<sup>j + w</sup> - 2<sup>j + ℓ</sup>) × 2<sup>m - j - ℓ - 1</sup> mod q for the unsigned case (for more details <a href="#PSY15">[5]</a>); or</li>
