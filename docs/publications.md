@@ -15,4 +15,5 @@ filename: publications.md
 1. Jes&uacute;s-Javier, Chi and Thomaz Oliveira, **Attacking a Binary GLS Elliptic Curve with Magma**, _Progress in Cryptology - LATINCRYPT 2015_. LNCS 9230 (2015), 308-326 [&#128279;](https://doi.org/10.1007/978-3-319-22174-8_17);
 
 ### Journals
+1. Jes&uacute;s-Javier Chi-Dom&iacute;nguez, Francisco Rodr&iacute;guez-Henr&iacute;quez, and Benjamin Smith **Extending the GLS endomorphism to speed up GHS Weil descent using Magma**. _Finite Fields and Their Applications_, 75 (2021), doi: 10.1016/j.ffa.2021.101891. [&#128279;](https://doi.org/10.1016/j.ffa.2021.101891);
 1. Jes&uacute;s-Javier Chi-Dom&iacute;nguez, and Francisco Rodr&iacute;guez-Henr&iacute;quez, **Optimal strategies for CSIDH**. _Advances in Mathematics of Communications_, 2020, doi: 10.3934/amc.2020116. [&#128279;](http://dx.doi.org/10.3934/amc.2020116);
