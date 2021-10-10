@@ -48,7 +48,7 @@ Regarding B-SIDH security, the task of an attacker is to find an isogeny between
 ---
 
 **References**
-: <a id="ACDRH20"></a> [1] G. Adj, J.-J. Chi-Dom&iacute;nguez, F. Rodr&iacute;guez-Henr&iacute;quez, **On new V&eacute;lu's formulae and their applications to CSIDH and B-SIDH constant-time implementations**. _IACR Cryptol. ePrint Arch._, 2020: 1109 (2020) [&#128279;](https://eprint.iacr.org/2020/1109).
+: <a id="ACDRH20"></a> [1] G. Adj, J.-J. Chi-Dom&iacute;nguez, F. Rodr&iacute;guez-Henr&iacute;quez, **Karatsuba-based square-root Vélu’s formulas applied to two isogeny-based protocols**. _IACR Cryptol. ePrint Arch._, 2020: 1109 (2020) [&#128279;](https://eprint.iacr.org/2020/1109).
 : <a id="BDLS20"></a> [2] D. J. Bernstein, L. De Feo, A. Leroux, B. Smith, **Faster computation of isogenies of large prime degree**. _IACR Cryptol. ePrint Arch._, 2020: 341 (2020) [&#128279;](https://eprint.iacr.org/2020/341).
 : <a id="BJS14"></a> [3] J.-F. Biasse, D. Jao, and A. Sankar, **A Quantum Algorithm for Computing Isogenies between Supersingular Elliptic Curves**, _Progress in Cryptology - INDOCRYPT 2014_, LNCS 8885, 428-442, 2014 [&#128279;](https://doi.org/10.1007/978-3-319-13039-2_25).
 : <a id="Costello20"></a>[4] C. Costello, **B-SIDH: Supersingular Isogeny Diffie-Hellman Using Twisted Torsion**. _Advances in Cryptology - ASIACRYPT 2020_, LNCS 12492, 440-463, 2020 [&#128279;](https://doi.org/10.1007/978-3-030-64834-3_15).
