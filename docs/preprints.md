@@ -6,7 +6,7 @@ filename: preprints.md
 
 # Preprints
 
-1. Vladimir Sedlacek, <mark>Jes&uacute;s-Javier Chi-Dom&iacute;nguez</mark>, Jan Jancar, and Billy Bob Brumley: **A formula for disaster: a unified approach to elliptic curve special-point-based attacks**. CRoCS wiki: Centre for Research on Cryptography and Security (2021) [&#128279;](https://crocs.fi.muni.cz/public/papers/formulas_asiacrypt21);
+1. Vladimir Sedlacek, <mark>Jes&uacute;s-Javier Chi-Dom&iacute;nguez</mark>, Jan Jancar, and Billy Bob Brumley: **A formula for disaster: a unified approach to elliptic curve special-point-based attacks**. IACR Cryptol. ePrint Arch. 2021: 1595 (2021) [&#128279;](https://eprint.iacr.org/2021/1595)
 2. <mark>Jes&uacute;s-Javier Chi-Dom&iacute;nguez</mark>, Francisco Rodr&iacute;guez-Henr&iacute;quez, and Benjamin Smith: **Extending the GLS endomorphism to speed up GHS Weil descent using Magma**. IACR Cryptol. ePrint Arch. 2021: 676 (2021) [&#128279;](https://eprint.iacr.org/2021/676);
 3. <mark>Jes&uacute;s-Javier Chi-Dom&iacute;nguez</mark>, and Krijn Reijnders: **Fully projective radical isogenies in constant-time**. IACR Cryptol. ePrint Arch. 2021: 259 (2021) [&#128279;](https://eprint.iacr.org/2021/259);
 4. Jorge Ch&aacute;vez-Saab, <mark>Jes&uacute;s-Javier Chi-Dom&iacute;nguez</mark>, Samuel Jaques, and Francisco Rodr&iacute;guez-Henr&iacute;quez: **The SQALE of CSIDH: Square-root v&eacute;lu Quantum-resistant isogeny Action with Low Exponents**. IACR Cryptol. ePrint Arch. 2020: 1520 (2020) [&#128279;](https://eprint.iacr.org/2020/1520);
