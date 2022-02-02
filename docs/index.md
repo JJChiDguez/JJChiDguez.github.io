@@ -6,9 +6,9 @@ filename: index.md
 
 # This is my webpage!
 
-<p align="center"><img src="figures/hereiam.jpg" ><h4 align="center" class="text-muted">Jes&uacute;s-Javier Chi-Dom&iacute;nguez</h4></p>
+<p align="center"><img src="figures/thisisme.jpg" width="27%" height="27%"><h4 align="center" class="text-muted">Jes&uacute;s-Javier Chi-Dom&iacute;nguez</h4></p>
 
-I am working as _Senior Cryptographer Post Quantum at the [Cryptography Research Centre (**CRC**)](https://cryptography.tii.ae/) of the [Technology Innovation Institute (**TII**)](https://www.tii.ae/), Abu Dhabi, United Arab Emirates.
+I am working as _Senior Cryptographer Post Quantum_ at the [Cryptography Research Centre (**CRC**)](https://cryptography.tii.ae/) of the [Technology Innovation Institute (**TII**)](https://www.tii.ae/), Abu Dhabi, United Arab Emirates.
 
 My research is currently focused on the cryptanalysis and constant-time C-code implementations of elliptic-curve and isogeny-based cryptographic protocols,
 where constant-time means its running-time is independent (or it does depend on randomness non-correlated) from its input.
