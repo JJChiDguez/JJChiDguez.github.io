@@ -33,7 +33,7 @@ Maybe you want to take a look at
 
 <div align="right">
 <a href="https://github.com/JJChiDguez"><img alt="GitHub icon" src="figures/icons/github.svg" style="width:16px;height:16px;"></a>
-<a href="https://twitter.com/Jebus_dguez"><img alt="Twitter icon" src="figures/icons/twitter.svg" style="width:16px;height:16px;"></a> 
+<a href="https://twitter.com/jjchidguez"><img alt="Twitter icon" src="figures/icons/twitter.svg" style="width:16px;height:16px;"></a> 
 <a href="https://scholar.google.com/citations?user=a3bmRrwAAAAJ"><img alt="Google Scholar icon" src="figures/icons/google-scholar.svg" style="width:16px;height:16px;"></a> 
 <a href="https://www.linkedin.com/in/jesus-javier-chi-dominguez-1b4282108/"><img alt="LinkedIn icon" src="figures/icons/linkedin.svg" style="width:16px;height:16px;"></a> 
 <a href="https://www.researchgate.net/profile/Jesus_Javier_Chi-Dominguez"><img alt="ResearchGate icon" src="figures/icons/researchgate.png" style="width:16px;height:16px;"></a> 
