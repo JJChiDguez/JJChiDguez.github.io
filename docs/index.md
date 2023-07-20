@@ -13,6 +13,10 @@ I am working as _Senior Cryptographer Post Quantum_ at the [Cryptography Researc
 My research is currently focused on the cryptanalysis and constant-time C-code implementations of elliptic-curve and isogeny-based cryptographic protocols,
 where constant-time means its running-time is independent (or it does depend on randomness non-correlated) from its input.
 
+My current research also includes code-based and lattice-based cryptography.
+
+Additionally, I am participating in the NIST competition for "Post-Quantum Cryptography: Digital Signature Schemes (Round 1 Additional Signatures)" as a collaborator of the [MIRA](https://pqc-mira.org/) and [RYDE](https://pqc-ryde.org/) submissions.
+
 I got a bachelor's degree in mathematics in 2013 at the [Faculty of Mathematics of the Autonomous University of Yucatan](https://www.matematicas.uady.mx/).
 I moved to computer sciences for the master's and Ph.D. degrees, both of them were coursed at the [Cinvestav - IPN](https://www.cs.cinvestav.mx/en).
 I did postdoctoral research stay at [Tampere University, Finland](https://www.tuni.fi/en) where I worked on the (mathematical, and probabilistic) study of
@@ -41,7 +45,11 @@ Maybe you want to take a look at
 <br>
 E-mail <img alt="E-mail icon" src="figures/icons/email.svg" style="width:16px;height:16px;">: chidoys&#x40;gmail.com
 <br>
-Phone <img alt="Flag of Finland icon" src="figures/icons/flag-Finland.svg" style="width:16px;height:12px;"> <img alt="Mobile icon" src="figures/icons/mobile.svg" style="width:16px;height:16px;">: +358 41 7593821 
+and jesus.dominguez&#x40;tii.ae
+<!--
+<br>
+Phone <img alt="Flag of Finland icon" src="figures/icons/flag-Finland.svg" style="width:16px;height:12px;"> <img alt="Mobile icon" src="figures/icons/mobile.svg" style="width:16px;height:16px;">: +358 41 7593821
+-->
 <br>
 Phone <img alt="Flag of Mexico icon" src="figures/icons/flag-Mexico.svg" style="width:16px;height:12px;"> <!--&#128241;--><img alt="WhatsApp icon" src="figures/icons/whatsapp.svg" style="width:16px;height:16px;">: +52 1 55 3576 1747
 </div>
