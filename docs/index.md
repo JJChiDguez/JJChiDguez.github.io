@@ -15,7 +15,7 @@ where constant-time means its running-time is independent (or it does depend on 
 
 My current research also includes code-based and lattice-based cryptography.
 
-Additionally, I am participating in the NIST competition for "Post-Quantum Cryptography: Digital Signature Schemes (Round 1 Additional Signatures)" as a collaborator of the [MIRA](https://pqc-mira.org/) and [RYDE](https://pqc-ryde.org/) submissions.
+Additionally, I am participating in the NIST competition for "Post-Quantum Cryptography: Digital Signature Schemes (Round 1 Additional Signatures)" as a collaborator of the [MIRATH](#) and [RYDE](https://pqc-ryde.org/) submissions.
 
 I got a bachelor's degree in mathematics in 2013 at the [Faculty of Mathematics of the Autonomous University of Yucatan](https://www.matematicas.uady.mx/).
 I moved to computer sciences for the master's and Ph.D. degrees, both of them were coursed at the [Cinvestav - IPN](https://www.cs.cinvestav.mx/en).
@@ -39,19 +39,13 @@ Maybe you want to take a look at
 <a href="https://github.com/JJChiDguez"><img alt="GitHub icon" src="figures/icons/github.svg" style="width:16px;height:16px;"></a>
 <a href="https://twitter.com/jjchidguez"><img alt="Twitter icon" src="figures/icons/twitter.svg" style="width:16px;height:16px;"></a> 
 <a href="https://scholar.google.com/citations?user=a3bmRrwAAAAJ"><img alt="Google Scholar icon" src="figures/icons/google-scholar.svg" style="width:16px;height:16px;"></a> 
-<a href="https://www.linkedin.com/in/jesus-javier-chi-dominguez-1b4282108/"><img alt="LinkedIn icon" src="figures/icons/linkedin.svg" style="width:16px;height:16px;"></a> 
+<a href="https://www.linkedin.com/in/jes%C3%BAs-javier-chi-dom%C3%ADnguez-1b4282108/"><img alt="LinkedIn icon" src="figures/icons/linkedin.svg" style="width:16px;height:16px;"></a> 
 <a href="https://www.researchgate.net/profile/Jesus_Javier_Chi-Dominguez"><img alt="ResearchGate icon" src="figures/icons/researchgate.png" style="width:16px;height:16px;"></a> 
 <a href="https://orcid.org/0000-0002-9753-7263"><img alt="ORCID id icon" src="figures/icons/orcid-id.svg" style="width:16px;height:16px;"></a>
 <br>
 E-mail <img alt="E-mail icon" src="figures/icons/email.svg" style="width:16px;height:16px;">: chidoys&#x40;gmail.com
 <br>
 and jesus.dominguez&#x40;tii.ae
-<!--
-<br>
-Phone <img alt="Flag of Finland icon" src="figures/icons/flag-Finland.svg" style="width:16px;height:12px;"> <img alt="Mobile icon" src="figures/icons/mobile.svg" style="width:16px;height:16px;">: +358 41 7593821
--->
-<br>
-Phone <img alt="Flag of Mexico icon" src="figures/icons/flag-Mexico.svg" style="width:16px;height:12px;"> <!--&#128241;--><img alt="WhatsApp icon" src="figures/icons/whatsapp.svg" style="width:16px;height:16px;">: +52 1 55 3576 1747
 </div>
 
 <!--<br>-->

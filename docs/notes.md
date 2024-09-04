@@ -9,10 +9,13 @@ filename: notes.md
 
 Each of the following items contains an introductory overview of their corresponded topic (for more analysis and study, I suggest to read the cited references).
 
+<!--
 * Isogeny-based cryptography:
 	1. [B-SIDH, the twist-agnostic SIDH protocol](notes/bsidh.html);
 * Let's talk about _lattices_ on (EC)DSA
-	1. [Let's introduce a couple of Lattice-based cryptanalyses](notes/lattices-at-work.html)
+-->
+
+1. [Let's introduce a couple of Lattice-based cryptanalyses](notes/lattices-at-work.html)
 
 <!--
 	1. [CSIDH, the Commutative SIDH protocol](notes.md) 

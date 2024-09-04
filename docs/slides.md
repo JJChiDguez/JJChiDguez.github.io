@@ -6,7 +6,7 @@ filename: slides.md
 
 # Slides from my talks
 
-1. Low Memory Attacks on Small Key CSIDH [&#x1f4be;](pdfs/ACNS23.pdf);
+1. Low Memory Attacks on Small Key CSIDH (ACNS 2023)[&#x1f4be;](pdfs/ACNS23.pdf);
 2. A quick journey on what SI[DH/KE] is (ASCRYPTO 2021) [&#x1f4be;](pdfs/ASCRYPTO21.pdf);
 3. Elliptic curves in classical and post-quantum cryptography (Doctoral thesis defense) [&#x1f4be;](pdfs/PhD-defense.pdf)
 4. My Ph.D. thesis topic explained in 10 slides? (Doctoral seminar 2019) [&#x1f4be;](pdfs/monologue.pdf)
