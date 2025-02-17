@@ -15,7 +15,7 @@ where constant-time means its running-time is independent (or it does depend on 
 
 My current research also includes code-based and lattice-based cryptography.
 
-Additionally, I am participating in the NIST competition for "Post-Quantum Cryptography: Digital Signature Schemes (Round 1 Additional Signatures)" as a collaborator of the [MIRATH](#) and [RYDE](https://pqc-ryde.org/) submissions.
+Additionally, I am participating in the NIST competition for "Post-Quantum Cryptography: Digital Signature Schemes (Round 1 Additional Signatures)" as a collaborator of the [Mirath](https://pqc-mirath.org/) and [RYDE](https://pqc-ryde.org/) submissions.
 
 I got a bachelor's degree in mathematics in 2013 at the [Faculty of Mathematics of the Autonomous University of Yucatan](https://www.matematicas.uady.mx/).
 I moved to computer sciences for the master's and Ph.D. degrees, both of them were coursed at the [Cinvestav - IPN](https://www.cs.cinvestav.mx/en).
