@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Miscellaneous - ¡Bienvenido!</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div class="page-wrapper">
+        <aside class="sidebar">
+            <h1>¡Bienvenido!</h1>
+            <nav>
+                <ul><li><a href="index.html">This is me!</a></li><li><a href="misc.html">Miscellaneous</a></li><li><a href="papers.html">Papers</a></li><li><a href="slides.html">Slides from my talks</a></li><li><a href="sofwares.html">Software Collaborations</a></li></ul>
+            </nav>
+        </aside>
+        <main class="content">
+            <h1 id="miscellaneous">Miscellaneous</h1>
+<ol type="1">
+<li><a href="#lattices_at_work">Lattices At Work (SCA)</a></li>
+</ol>
+<h2 id="lattices-at-work-sca">Lattices At Work (SCA) <a href="#"
+name="lattices_at_work"></a></h2>
+In both <strong>DSA</strong> and <strong>ECDSA</strong> (the
+elliptic-curve <strong>DSA</strong>) procedures, the signature output is
+a pair (r,s) of integer numbers such that
+<center>
+<a id="signature-rs"></a> s × k ≡ ( h + α × r ) mod q,
+</center>
+<p>where α, h, and k are the private key, the hash of the message to be
+signed, and the <em>ephemeral</em> key <a href="#fn1"
+class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>,
+respectively. In particular, r is either the output of the
+exponentiation (<strong>DSA</strong> case: g<sup>k</sup>) or the scalar
+point multiplication (<strong>ECDSA</strong> case: [k]P) procedure.</p>
+<p>The following lattice descriptions are based on the results presented
+in <a href="#DEJAVU20">[4]</a>, which is more focused on the practical
+Side-Channel Analysis. However, for a deep read, I suggest the paper by
+<a href="#MH20">Gabrielle De Micheli and Nadia Heninger</a>.</p>
+<h2 id="timing-attacks">Timing attacks</h2>
+<p>Lattice-based cryptanalysis using timing attacks are commonly focused
+on determining a few bits from the <em>ephemeral</em> key, which can be
+easily correlated with the private key by using the <a
+href="#signature-rs">above equation</a>. For instance, if the
+exponentiation or scalar point multiplication procedures have been
+implemented in <em><strong>non</strong></em>-constant-time, then by a
+simple timing analysis it is possible to find a sample of d signatures
+(r<sub>i</sub>, s<sub>i</sub>) with shorter-than-average
+<em>ephemeral</em> key k<sub>i</sub> &lt; q / 2<sup>ℓ<sub>i</sub></sup>
+for some positive integer ℓ<sub>i</sub>. Moreover, the dimensional-(d+1)
+lattice</p>
+<table class="table table-striped lead">
+<thead>
+<tr>
+<td class="text-right">
+<small><br/><br/>B =<br/></small>
+</td>
+<td class="text-left">
+<small>[ 2W<sub>1</sub> × q <br/>[ 0 <br/>[ ⋮ <br/>[ 0</small>
+</td>
+<td class="text-left">
+<small>0 <br/>2W<sub>2</sub> × q <br/>⋱ <br/>⋯</small>
+</td>
+<td class="text-left">
+<small>⋯ <br/>⋱ <br/>⋱ <br/>0</small>
+</td>
+<td class="text-left">
+<small>⋯ <br/>⋯ <br/>0 <br/>2W<sub>d</sub> × q</small>
+</td>
+<td class="text-right">
+<small>0 ] <br/>⋮ ] <br/>⋮ ] <br/>0 ]</small>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="text-right">
+<small></small>
+</td>
+<td class="text-left">
+<small>[ 2W<sub>1</sub> × t<sub>1</sub></small>
+</td>
+<td class="text-left">
+<small>2W<sub>2</sub> × t<sub>2</sub></small>
+</td>
+<td class="text-left">
+<small>⋯</small>
+</td>
+<td class="text-left">
+<small>2W<sub>d</sub> × t<sub>d</sub></small>
+</td>
+<td class="text-right">
+<small>1 ]</small>
+</td>
+</tr>
+</tbody>
+</table>
+<p>and the integer vectors u = ( 2W<sub>1</sub> × û<sub>1</sub> + q, …,
+2W<sub>1</sub> × û<sub>1</sub> + q, 0 ), z = ( λ<sub>1</sub>, …,
+λ<sub>d</sub>, α ), and y = ( 2W<sub>1</sub> × ν<sub>1</sub>, …,
+2W<sub>d</sub> × ν<sub>d</sub>, α ) satisfy zB - u = y with
+W<sub>i</sub> = 2<sup>ℓ<sub>i</sub></sup>, λ<sub>i</sub> ∊ { -q, …, q },
+and ν<sub>i</sub> ∊ { -(q - 1)/2, …, (q - 1)/2 } the signed modular
+reduction of û<sub>i</sub> + q/(2W<sub>i</sub>) mod q.</p>
+<h2 id="wnaf-trace-approach">wNAF trace approach</h2>
+<p>Let’s focus on scalar point multiplications using wNAF scalar
+codifications. Assuming a window width equals w, two kwnon consecutive
+non-zero coefficients κ<sub>j</sub> and κ<sub>j + ℓ</sub> leads to an
+equation with δ α-correlated bits. Each column of the lattice B (with
+same shape as given above), is determined by the pair (κ<sub>j</sub>,
+κ<sub>j + ℓ</sub>) along with the public values h and (r,s).</p>
+<p>In particular, the entries of the integer vector t coincide with r ×
+s<sup>-1</sup> × 2<sup>m - j - ℓ - 1</sup> mod q, W = 2<sup>δ</sup>
+where δ is equal to (ℓ - w) and (ℓ - w + 1) for the unsigned and signed
+approaches <a href="#fn2" class="footnote-ref" id="fnref2"
+role="doc-noteref"><sup>2</sup></a> <a href="#fn3" class="footnote-ref"
+id="fnref3" role="doc-noteref"><sup>3</sup></a>, respectively. In both
+cases, the integer vector has the same shape like in the timing attack
+but without the term q, and the entries of u are equal to</p>
+<ul>
+<li>2<sup>m + w - ℓ - 1</sup> - (r × s<sup>-1</sup> + 2<sup>j + w</sup>
+- 2<sup>j + ℓ</sup>) × 2<sup>m - j - ℓ - 1</sup> mod q for the unsigned
+case (for more details <a href="#PSY15">[5]</a>); or</li>
+<li>(2b + 1) × 2<sup>m + w - ℓ - 2</sup> - (r × s<sup>-1</sup> × 2<sup>m
+- j - ℓ - 1</sup>) mod q, where b denotes the sign of κ<sub>j + ℓ</sub>
+(for more details <a href="#ABFPY16">[1]</a>).</li>
+</ul>
+<h2 id="solving-the-lattice">Solving the lattice</h2>
+<p>In summary, the private key recovery can be reduced to a Closest
+Vector Problem (CVP) instance of a given lattice. However, any CVP
+instance with input lattice B and vector u can be mapped into a Shortest
+Vector Problem (SVP) instance by looking for a short lattice basis
+vector in the dimensional-(d + 2) lattice B’</p>
+<table class="table table-striped lead">
+<thead>
+<tr>
+<td class="text-right">
+<small>[ B</small>
+</td>
+<td class="text-left">
+<small>0 ]</small>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="text-right">
+<small>[ u</small>
+</td>
+<td class="text-left">
+<small>q ]</small>
+</td>
+</tr>
+</tbody>
+</table>
+<p>In both SVP and CVP instances, one proceeds by reducing the lattice
+with the LLL or BKZ procedures. But in practice, one proceeds by
+applying the method by Gama et al. <a href="#GNR10">[3]</a>, which can
+be summarized as follows:</p>
+<ul>
+<li>To reduce (using BKZ) another dimensional-(d + 2) lattice β which is
+computed by shuffling the columns of B’ and multiplying it by a
+unimodular matrix with low density approximately;</li>
+<li>To look for a short lattice basis vector in the reduced lattice of
+β: if private key recovery is unsuccessful, update β as the reduced
+matrix of β and repeat the procedure.</li>
+</ul>
+<dl>
+<dt><strong>References</strong></dt>
+<dd>
+<p><a id="ABFPY16"></a> [1] T. Allan, B. B. Brumley, K. Falkner, J. van
+de Pol, Y. Yarom, <strong>Amplifying side channels through performance
+degradation</strong>, <em>Annual Computer Security Applications
+Conference - ACSAC 2016</em>, ACM (2016), 422-435 <a
+href="https://dl.acm.org/doi/10.1145/2991079.2991084">🔗</a>;</p>
+</dd>
+<dd>
+<a id="MH20"></a> [2] G. De Micheli and N. Heninger, <strong>Recovering
+cryptographic keys from partial information, by example</strong>, IACR
+Cryptol. ePrint Arch. 2020: 1506 (2020) <a
+href="https://eprint.iacr.org/2020/1506">🔗</a>;
+</dd>
+<dd>
+<a id="GNR10"></a> [3] N. Gama, P. Q. Nguyen, O. Regev, <strong>Lattice
+Enumeration Using Extreme Pruning</strong>, <em>Advances in Cryptology -
+EUROCRYPT 2010</em>, LNCS 6110, 257-278, 2010 <a
+href="https://link.springer.com/chapter/10.1007%2F978-3-642-13190-5_13">🔗</a>;
+</dd>
+<dd>
+<a id="DEJAVU20"></a> [4] S. ul Hassan, I. Gridin, I. M. Delgado-Lozano,
+C. Pereida-García, J.-J. Chi-Domínguez, A. Cabrera Aldaya, B. B.
+Brumley, <strong>Déjà Vu: Side-Channel Analysis of Mozilla’s
+NSS</strong>, Conference on Computer and Communications Security - CCS
+2020, ACM (2020), 1887-1902 <a
+href="https://doi.org/10.1145/3372297.3421761">🔗</a>;
+</dd>
+<dd>
+<a id="PSY15"></a> [5] J. van de Pol, N. P. Smart, Y. Yarom,
+<strong>Just a Little Bit More</strong>, <em>Topics in Cryptology -
+CT-RSA 2015</em>, LNCS 9048, 3-21, 2015 <a
+href="https://doi.org/10.1007/978-3-319-16715-2_1">🔗</a>.
+</dd>
+</dl>
+<section id="footnotes" class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p>In some papers, the integer k is named by <em>nonce</em>
+but in my opinion, I prefer the term <em>ephemeral</em> key.<a
+href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>The unsigned case refers when it is only possible to
+determine non-zero wNAF-coefficients, and thus the signed case allows to
+guess the sign of the wNAF-coefficients.<a href="#fnref2"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Here, m denotes the bitlength of q.<a href="#fnref3"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+        </main>
+    </div>
+</body>
+</html>
