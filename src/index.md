@@ -18,7 +18,7 @@ side-channel analysis applied to both existing and emerging cryptosystems.
 
 ## Conferences where I am or was a PC member
 
-1. CHES 2027, September 2025, Canc&uacute;n, M&eacute;xico [&#x1F30E;](https://ches.iacr.org/2027/)
+1. CHES 2027, September 2027, Canc&uacute;n, M&eacute;xico [&#x1F30E;](https://ches.iacr.org/2027/)
 2. CHES 2025, September 2025, Kuala Lumpur, Malaysia [&#x1F30E;](https://ches.iacr.org/2025/)
 3. CHES 2024, September 2024, Halifax, Canada [&#x1F30E;](https://ches.iacr.org/2024/)
 4. Latincrypt 2023, October 4–6, 2023, Sangolqu&iacute;, Ecuador [&#x1F30E;](https://www.espe.edu.ec/latincrypt/)
