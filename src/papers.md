@@ -45,7 +45,7 @@
 
 ## Journals
 
-1. <mark>Jes&uacute;s-Javier Chi-Dom&iacute;nguez</mark>: **Improved Subfield Curve Search For Specific Field Characteristics**, _Communications in Cryptology_, 3 (2): 2025 [&#128279;](https://doi.org/10.62056/ah5womja5)
+1. <mark>Jes&uacute;s-Javier Chi-Dom&iacute;nguez</mark>: **Improved Subfield Curve Search For Specific Field Characteristics**, _Communications in Cryptology_, 3 (2): 2026 [&#128279;](https://doi.org/10.62056/ah5womja5)
 2. Alessandro Budroni, <mark>Jes&uacute;s-Javier Chi-Dom&iacute;nguez</mark>, Ermes Franch: **Don't Use It Twice: Reloaded! On the Lattice Isomorphism Group Action**, _Communications in Cryptology_, 2 (2): 2025 [&#128279;](https://doi.org/10.62056/ay76chdj)
 3. Lo&iuml;c Bidoux, <mark>Jes&uacute;s-Javier Chi-Dom&iacute;nguez</mark>, Thibauld Feneuil, Philippe Gaborit, Antoine Joux, Matthieu Rivain, Adrien Vin&ccedil;otte: **RYDE: a digital signature scheme based on rank syndrome decoding problem with MPC-in-the-Head paradigm**, _Designs, Codes and Cryptography_: 2025 [&#128279;](https://doi.org/10.1007/s10623-024-01544-1)
 4. Fabio Campos, Jorge Chavez-Saab, <mark>Jes&uacute;s-Javier Chi-Dom&iacute;nguez</mark>, Michael Meyer, Krijn Reijnders, Francisco Rodr&iacute;guez-Henr&iacute;quez, Peter Schwabe, Thom Wiggers: **Optimizations and Practicality of High-Security CSIDH**, _Communications in Cryptology_, 1 (1): 2024 [&#128279;](https://doi.org/10.62056/anjbksdja)
