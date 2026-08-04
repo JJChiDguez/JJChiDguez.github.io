@@ -2,7 +2,7 @@
 
 ## Preprints
 
-1. <mark>Jes&uacute;s-Javier Chi-Dom&iacute;nguez</mark>, D$&eacute;cio Luiz Gazzoni Filho, Marco Palumbi, Luis Rivera-Zamarripa: **Towards a Unified Memory-Less Framework for TCitH**. IACR Cryptol. ePrint Arch. 2026: 1029 (2026) [&#128279;](https://eprint.iacr.org/2026/1029)
+1. <mark>Jes&uacute;s-Javier Chi-Dom&iacute;nguez</mark>, D&eacute;cio Luiz Gazzoni Filho, Marco Palumbi, Luis Rivera-Zamarripa: **Towards a Unified Memory-Less Framework for TCitH**. IACR Cryptol. ePrint Arch. 2026: 1029 (2026) [&#128279;](https://eprint.iacr.org/2026/1029)
 2. <mark>Jes&uacute;s-Javier Chi-Dom&iacute;nguez</mark>: **Weak Instances of the Two Matrix Code Equivalence Problem**. IACR Cryptol. ePrint Arch. 2025: 1909 (2025) [&#128279;](https://eprint.iacr.org/2025/1909)
 3. <mark>Jes&uacute;s-Javier Chi-Dom&iacute;nguez</mark>, Eduardo Ochoa-Jimenez, Ricardo-Neftal&iacute; Pontaza-Rodas: **Let us walk on the 3-isogeny graph: efficient, fast, and simple**. IACR Cryptol. ePrint Arch. 2025: 691 (2025) [&#128279;](https://eprint.iacr.org/2025/691)
 4. Alessandro Budroni, <mark>Jes&uacute;s-Javier Chi-Dom&iacute;nguez</mark>, Ermes Franch: **Don't Use It Twice: Reloaded! On the Lattice Isomorphism Group Action**. IACR Cryptol. ePrint Arch. 2025: 516 (2025) [&#128279;](https://eprint.iacr.org/2025/516)
