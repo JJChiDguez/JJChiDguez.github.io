@@ -6,12 +6,12 @@
 
 ---
 
-I am working as _Senior Cryptographer Post Quantum_ at the [Cryptography Research Center (CRC)](https://www.tii.ae/cryptography) of the [Technology Innovation Institute (**TII**)](https://www.tii.ae/), Abu Dhabi, United Arab Emirates.
+I am working as _Lead Cryptographer_ at the [Cryptography Research Center (CRC)](https://www.tii.ae/cryptography) of the [Technology Innovation Institute (**TII**)](https://www.tii.ae/), Abu Dhabi, United Arab Emirates.
 
 My research is currently focused on the cryptanalysis and constant-time C-code implementations of elliptic-curve and isogeny-based cryptographic protocols,
 where constant-time means its running-time is independent (or it does depend on randomness non-correlated) from its input. My current research also includes code-based and lattice-based cryptography. In general, I focus on post quantum cryptography.
 
-I got a bachelor's degree in mathematics in 2013 at the [Faculty of Mathematics of the Autonomous University of Yucatan](https://www.matematicas.uady.mx/).
+I got a bachelor's degree in mathematics in 2013 at the [Faculty of Mathematics of the Autonomous University of Yucatan](https://matematicas.uady.mx).
 I moved to computer sciences for the master's and Ph.D. degrees, both of them were coursed at the [Cinvestav - IPN](https://www.cinvestav.mx/zacatenco/computacion).
 I did postdoctoral research stay at [Tampere University, Finland](https://www.tuni.fi/en) where I worked on the (mathematical, and probabilistic) study of
 side-channel analysis applied to both existing and emerging cryptosystems.
